@@ -1,7 +1,7 @@
 {
 	"comment": "Contains the steps required to deploy the Client Onboarding scenario itself",
 	"fileVersion": "1.0.6",
-	"fileLocation": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/Starter/DeployClientOnboardingScenarioEmbeddedGitea.json",
+	"fileLocation": "https://api.github.com/repos/Munafuddin/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/Starter/DeployClientOnboardingScenarioEmbeddedGitea.json",
 	"requiredToolVersion": ">=1.1.68 <1.2.0",
 	"requiredCP4BAVersion": ">=23.2.2 <24.0.0",
 	"requiredCP4BAPattern": "Starter",
