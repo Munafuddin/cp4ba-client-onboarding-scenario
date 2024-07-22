@@ -1,0 +1,77 @@
+CP4BA Deployment Automation Utility - 1.1.70 (July 04 2024)
+
+    Batch file './deployClientOnboardingStarter.sh' at location 'https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.sh' not found - Skipping check for newer version - Running with version '1.1.11'
+No bootstrapping of execution environment is required, all files are present
+
+    Config file 'config-deploy.properties' at location 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-deploy.properties' not found - Skipping check for newer version - Running with version '1.1.16'
+
+Deploy all Client Onboarding scenario artifacts including those used for labs on a CP4BA 23.0.1 Starter deployment
+
+Starting to read OCP configuration
+
+
+Error: Unrecoverable error during extraction of configuration from OCP environment and deployment automation config file - Message: Error executing GET request 'Get Operators' - java.net.UnknownHostException: api.669dc89a417006001efe85f0.ocp.techzone.ibm.com: nodename nor servname provided, or not known
+Stacktrace:
+java.lang.RuntimeException: Error executing GET request 'Get Operators' - java.net.UnknownHostException: api.669dc89a417006001efe85f0.ocp.techzone.ibm.com: nodename nor servname provided, or not known
+	at com.ibm.dba.swat.cp4ba.tools.ocp.OCPManagerUtil.executeRequest(OCPManagerUtil.java:377)
+	at com.ibm.dba.swat.cp4ba.tools.ocp.OCPManagerUtil.executeGetRequest(OCPManagerUtil.java:306)
+	at com.ibm.dba.swat.cp4ba.tools.ocp.OCPManagerUtil.getOperators(OCPManagerUtil.java:396)
+	at com.ibm.dba.swat.cp4ba.tools.ocp.OCPManagerUtil.getEnvironmentInformation(OCPManagerUtil.java:3144)
+	at com.ibm.dba.swat.cp4ba.tools.ocp.OCPManagerUtil.getEnvironmentInformationForDeployment(OCPManagerUtil.java:3082)
+	at com.ibm.dba.swat.cp4ba.deployment.config.DeploymentAutomationParamReader.initOCP(DeploymentAutomationParamReader.java:434)
+	at com.ibm.dba.swat.cp4ba.deployment.config.DeploymentAutomationParamReader.<init>(DeploymentAutomationParamReader.java:351)
+	at com.ibm.dba.swat.cp4ba.deployment.DeploymentAutomation.main(DeploymentAutomation.java:840)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:61)
+Caused by: java.net.UnknownHostException: api.669dc89a417006001efe85f0.ocp.techzone.ibm.com: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1532)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1384)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:245)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.ibm.dba.swat.cp4ba.tools.ocp.OCPManagerUtil.executeRequest(OCPManagerUtil.java:334)
+	... 12 more
+
+
+--- Execution failed ---
+
+CP4BA Deployment Automation Utility - 1.1.70 (July 04 2024)
+
+    Batch file './deployClientOnboardingStarter.sh' at location 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.sh' not found - Skipping check for newer version - Running with version '1.1.11'
+No bootstrapping of execution environment is required, all files are present
+
+    Config file 'config-deploy.properties' at location 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-deploy.properties' not found - Skipping check for newer version - Running with version '1.1.16'
+
+Deploy all Client Onboarding scenario artifacts including those used for labs on a CP4BA 23.0.1 Starter deployment
+
+Starting to read OCP configuration
+
+
+Error: ConfigMap 'icp4adeploy-cp4ba-access-info' could not be found in cluster 'icp4adeploy' in namespace 'cp4ba-starter'. Cluster is either not fully build yet or corrupted!
+
+--- Execution failed ---
+

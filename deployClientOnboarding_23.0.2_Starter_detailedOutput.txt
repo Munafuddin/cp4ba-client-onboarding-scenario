@@ -1,9 +1,9 @@
 CP4BA Deployment Automation Utility - 1.1.70 (July 04 2024)
 
-    Local batch file './deployClientOnboardingStarter.sh' (based on 'deployClientOnboardingStarter.sh') is current, no need to update - Running with version '1.1.11'
+    Batch file './deployClientOnboardingStarter.sh' at location 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.sh' not found - Skipping check for newer version - Running with version '1.1.11'
 No bootstrapping of execution environment is required, all files are present
 
-    Local config file 'config-deploy.properties' is current, no need to update - Running with version '1.1.16'
+    Config file 'config-deploy.properties' at location 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-deploy.properties' not found - Skipping check for newer version - Running with version '1.1.16'
 
 Deploy all Client Onboarding scenario artifacts including those used for labs on a CP4BA 23.0.1 Starter deployment
 
@@ -13,107 +13,19 @@ CP4BA Deployment Automation Utility - 1.1.70 (July 04 2024) - Invoked from './de
 
 
 
----------------------------- Starting Deployment Automation (Start time: 2024-07-22 17:34:03) ----------------------------
+---------------------------- Starting Deployment Automation (Start time: 2024-07-22 18:49:44) ----------------------------
 Environment configuration dynamically retrieved from OCP cluster 'https://api.669dc89a417006001efe85f0.ocp.techzone.ibm.com:6443'
 
 Geo 'DEFAULT', OCP environment 'apps.669dc89a417006001efe85f0.ocp.techzone.ibm.com', unique environment name '669dc89a417006001efe85f0_ocp_techzone_ibm_com', cluster version '23.0.2-IF002', deployment pattern 'Starter'
 
 Using automation script '/Users/akshayduduskar/git/cp4ba-client-onboarding-scenario/Starter/DeployClientOnboardingEmbeddedGitea.json'
-  Local automation script is current, no need to update - Running with version '1.0.37'
-
+  Automation script at location 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingEmbeddedGitea.json' not found - Skipping check for newer version - Running with version '1.0.37'
 
 Something failed during the deployment of the Client Onboarding scenario artifacts
 Study the output and potentially retry the execution. If the problem persists reach out to Olaf.Hahnl@de.ibm.com and share the config, script, and logs files or in case created the collector zip-file.
 
 Error: Tool and environment validation failure messages:
   Actual CP4BA cluster version '23.2.2' (23.0.2-IF002) is not within supported range '>=23.1.0 <23.2.2', it is too new
-
-
---- Execution failed ---
-
-CP4BA Deployment Automation Utility - 1.1.70 (July 04 2024)
-
-    Local batch file './deployClientOnboardingStarter.sh' (based on 'deployClientOnboardingStarter.sh') is current, no need to update - Running with version '1.1.11'
-No bootstrapping of execution environment is required, all files are present
-
-    Local config file 'config-deploy.properties' is current, no need to update - Running with version '1.1.16'
-
-Deploy all Client Onboarding scenario artifacts including those used for labs on a CP4BA 23.0.1 Starter deployment
-
-Starting to read OCP configuration
-
-CP4BA Deployment Automation Utility - 1.1.70 (July 04 2024) - Invoked from './deployClientOnboardingStarter.sh', Version '1.1.11' (Download path 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.sh')
-
-
-
----------------------------- Starting Deployment Automation (Start time: 2024-07-22 17:43:17) ----------------------------
-Environment configuration dynamically retrieved from OCP cluster 'https://api.669dc89a417006001efe85f0.ocp.techzone.ibm.com:6443'
-
-Geo 'DEFAULT', OCP environment 'apps.669dc89a417006001efe85f0.ocp.techzone.ibm.com', unique environment name '669dc89a417006001efe85f0_ocp_techzone_ibm_com', cluster version '23.0.2-IF002', deployment pattern 'Starter'
-
-Using automation script '/Users/akshayduduskar/git/cp4ba-client-onboarding-scenario/Starter/DeployClientOnboardingEmbeddedGitea.json'
-  Local automation script is current, no need to update - Running with version '1.0.37'
-
-
-Something failed during the deployment of the Client Onboarding scenario artifacts
-Study the output and potentially retry the execution. If the problem persists reach out to Olaf.Hahnl@de.ibm.com and share the config, script, and logs files or in case created the collector zip-file.
-
-Error: Tool and environment validation failure messages:
-  Actual CP4BA cluster version '23.2.2' (23.0.2-IF002) is not within supported range '>=23.1.0 <23.2.2', it is too new
-
-
---- Execution failed ---
-
-CP4BA Deployment Automation Utility - 1.1.70 (July 04 2024)
-
-    Batch file './deployClientOnboardingStarter.sh' at location 'https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.sh' not found - Skipping check for newer version - Running with version '1.1.11'
-No bootstrapping of execution environment is required, all files are present
-
-    Local config file 'config-deploy.properties' is current, no need to update - Running with version '1.1.16'
-
-Deploy all Client Onboarding scenario artifacts including those used for labs on a CP4BA 23.0.1 Starter deployment
-
-Starting to read OCP configuration
-
-CP4BA Deployment Automation Utility - 1.1.70 (July 04 2024) - Invoked from './deployClientOnboardingStarter.sh', Version '1.1.11' (Download path 'https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.sh')
-
-
-
----------------------------- Starting Deployment Automation (Start time: 2024-07-22 17:47:05) ----------------------------
-Environment configuration dynamically retrieved from OCP cluster 'https://api.669dc89a417006001efe85f0.ocp.techzone.ibm.com:6443'
-
-Geo 'DEFAULT', OCP environment 'apps.669dc89a417006001efe85f0.ocp.techzone.ibm.com', unique environment name '669dc89a417006001efe85f0_ocp_techzone_ibm_com', cluster version '23.0.2-IF002', deployment pattern 'Starter'
-
-Using automation script '/Users/akshayduduskar/git/cp4ba-client-onboarding-scenario/Starter/DeployClientOnboardingEmbeddedGitea.json'
-
-Something failed during the deployment of the Client Onboarding scenario artifacts
-Study the output and potentially retry the execution. If the problem persists reach out to Olaf.Hahnl@de.ibm.com and share the config, script, and logs files or in case created the collector zip-file.
-
-Error:
-Error downloading file from URL '/Users/akshayduduskar/git/cp4ba-client-onboarding-scenario/Starter/DeployClientOnboardingEmbeddedGitea.json' org.apache.hc.client5.http.ClientProtocolException: Target host is not specified
-
-Stacktrace:
-java.lang.RuntimeException: Error downloading file from URL '/Users/akshayduduskar/git/cp4ba-client-onboarding-scenario/Starter/DeployClientOnboardingEmbeddedGitea.json' org.apache.hc.client5.http.ClientProtocolException: Target host is not specified
-	at com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile(GitHubManagerUtil.java:650)
-	at com.ibm.dba.swat.cp4ba.tools.git.GitManagerUtil.downloadFile(GitManagerUtil.java:180)
-	at com.ibm.dba.swat.cp4ba.deployment.config.action.AutomationScriptHandler.parseAutomationScript(AutomationScriptHandler.java:266)
-	at com.ibm.dba.swat.cp4ba.deployment.config.action.AutomationScriptHandler.parseAutomationScript(AutomationScriptHandler.java:179)
-	at com.ibm.dba.swat.cp4ba.deployment.DeploymentAutomation.main(DeploymentAutomation.java:914)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:61)
-Caused by: org.apache.hc.client5.http.ClientProtocolException: Target host is not specified
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:173)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:123)
-	at com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile(GitHubManagerUtil.java:581)
-	... 9 more
-Caused by: org.apache.hc.core5.http.ProtocolException: Target host is not specified
-	at org.apache.hc.client5.http.impl.routing.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:66)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.determineRoute(InternalHttpClient.java:120)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:158)
-	... 11 more
 
 
 --- Execution failed ---
