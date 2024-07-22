@@ -1,7 +1,7 @@
 {
 	"comment": "Contains the steps required to deploy the Client Onboarding labs",
 	"fileVersion": "1.0.5",
-	"fileLocation": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/Starter/DeployClientOnboardingLabsEmbeddedGitea.json",
+	"fileLocation": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingLabsEmbeddedGitea.json",
 	"requiredToolVersion": ">=1.1.59 <1.2.0",
 	"requiredCP4BAVersion": ">=23.2.2 <24.0.0",
 	"requiredCP4BAPattern": "Starter",
