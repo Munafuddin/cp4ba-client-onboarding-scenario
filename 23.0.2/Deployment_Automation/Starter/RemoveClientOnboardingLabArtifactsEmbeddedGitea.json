@@ -27,7 +27,7 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Workflow/DBExecutionHelper.twx"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Workflow/DBExecutionHelper.twx"
 											}
 										]
 									}
