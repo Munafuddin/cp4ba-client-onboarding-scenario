@@ -1,7 +1,7 @@
 {
 	"comment": "Contains the steps to deploy the email server and client capability",
 	"fileVersion": "1.0.1",
-	"fileLocation": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/Enterprise/DeployEmailCapability.json",
+	"fileLocation": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/Enterprise/DeployEmailCapability.json",
 	"requiredToolVersion": ">=1.1.40 <1.2.0",
 	"requiredCP4BAVersion": ">=23.2.0 <24.0.0",
 	"requiredCP4BAPattern": "Enterprise",
@@ -25,40 +25,40 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/mailserver-tls-secret.yaml"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/mailserver-tls-secret.yaml"
 											},
 											{
-												"url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/mailserver.yaml"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/mailserver.yaml"
 											},
 											{
-												"url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/roundcube-pvc.yaml"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/roundcube-pvc.yaml"
 											},
 											{
-												"url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/roundcube-shared-secret.yaml"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/roundcube-shared-secret.yaml"
 											},
 											{
-												"url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/roundcube-db.yaml"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/roundcube-db.yaml"
 											},
 											{
-												"url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/roundcube-mail-deployment.yaml"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/roundcube-mail-deployment.yaml"
 											},
 											{
-												"url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/roundcube-mail-config.yaml"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/roundcube-mail-config.yaml"
 											},
 											{
-												"url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/roundcube-mail-service.yaml"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/roundcube-mail-service.yaml"
 											},
 											{
-												"url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/roundcube-nginx.yaml"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/roundcube-nginx.yaml"
 											},
 											{
-												"url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/mailserver.pem"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/mailserver.pem"
 											},
 											{
-												"url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/config.cert.inc.php"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/config.cert.inc.php"
 											},
 											{
-												"url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/config.inc.php"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/OpenShift/config.inc.php"
 											}
 										]
 									}

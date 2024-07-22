@@ -65,7 +65,7 @@ In all cases described below, when you change the LDAP the mail server will be s
 
 In case you want to create one or multiple users to have individual user names other than cpuser, cpuser1, and cpuser2 or cpadmin follow these steps:
 
-1. Download the file [AddIndividualUsersToPlatform.json](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/AddIndividualUsersToPlatform.json), place it in the same directory where you placed the bat/sh file, and **rename** it to **AddUsersToPlatform.json**
+1. Download the file [AddIndividualUsersToPlatform.json](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/AddIndividualUsersToPlatform.json), place it in the same directory where you placed the bat/sh file, and **rename** it to **AddUsersToPlatform.json**
 2. Edit the AddUsersToPlatform.json in your favorite text editor
    1. If you want to **add a single user**, modify the existing entry for user "henry" to match your needs. The file uses several variables that are at runtime replaced with the respective configuration of the actual environment (`$(ldapUserQualifier)$`, `$(ldapUserOrg)$`, `$(localMailDomain)$`, `$(generalUsersGroupFull)$`)
       - Ensure to update ALL properties like "dn", "cn", "sn", "uid", "mail" (always replacing henry)
@@ -78,7 +78,7 @@ In case you want to create one or multiple users to have individual user names o
 
 In case you want to create a series of users with a common naming scheme (e.g. usr001-usr020 or user11-user20) in one go with either a common password or a randomly generated password, follow these steps:
 
-1. Download the file [AddSeriesOfUsersToPlatformGeneratedPwd.json](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/AddSeriesOfUsersToPlatformGeneratedPwd.json) when you want to automatically generate individual password for the users to be added, or download the file [AddSeriesOfUsersToPlatformStaticPwd.json](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/AddSeriesOfUsersToPlatformStaticPwd.json) when you want to use a single static password for all users to be added, place the respective file in the same directory where you placed the bat/sh file, and **rename** it to **AddUsersToPlatform.json**
+1. Download the file [AddSeriesOfUsersToPlatformGeneratedPwd.json](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/AddSeriesOfUsersToPlatformGeneratedPwd.json) when you want to automatically generate individual password for the users to be added, or download the file [AddSeriesOfUsersToPlatformStaticPwd.json](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/AddSeriesOfUsersToPlatformStaticPwd.json) when you want to use a single static password for all users to be added, place the respective file in the same directory where you placed the bat/sh file, and **rename** it to **AddUsersToPlatform.json**
 2. Edit the AddUsersToPlatform.json in your favorite text editor
       1.  Specify the static part of the user name as property `userBaseName` (e.g. usr or user)
       2. Specify the first (`userStartNumber`) and last (`userTargetNumber`) number of the generated users (e.g. 1 and 30 to generate 30 users starting with 1 ending with 30)
@@ -93,7 +93,7 @@ In case you want to create a series of users with a common naming scheme (e.g. u
 
 In case you want to set your own password for all users (user1-user10), follow these steps:
 
-1. Download the file [SetPasswordForNonAdminUsers.json](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/SetPasswordForNonAdminUsers.json),place it in the same directory where you placed the bat/sh file, and **rename** it to **AddUsersToPlatform.json**
+1. Download the file [SetPasswordForNonAdminUsers.json](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/SetPasswordForNonAdminUsers.json),place it in the same directory where you placed the bat/sh file, and **rename** it to **AddUsersToPlatform.json**
 2. In the sh/bat file modify the line "**createUsers**=" and set the value from false to **true**
 
 
@@ -133,9 +133,9 @@ In case you want to clean up your environment and remove the Client Onboarding a
 
 1. **Save the undeployment file** that corresponds to the operating system of your deployment machine into the directory created in step 1 (in the context menu of your browser select **Save as.../Save page as...** or similar)
 
-   **Linux/Mac** *CP4BA 23.0.2* - Enterprise deployment via Cloud Pak Deployer - **[undeploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/undeployClientOnboardingCloudPakDeployerEnterpriseWithGitea.sh)** (*Ensure to make the sh file executable by performing `chmod +x undeployClientOnboardingCloudPakDeployerEnterpriseWithGitea.sh`*)
+   **Linux/Mac** *CP4BA 23.0.2* - Enterprise deployment via Cloud Pak Deployer - **[undeploy](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/undeployClientOnboardingCloudPakDeployerEnterpriseWithGitea.sh)** (*Ensure to make the sh file executable by performing `chmod +x undeployClientOnboardingCloudPakDeployerEnterpriseWithGitea.sh`*)
 
-   **Windows** - *CP4BA 23.0.2* - Enterprise deployment via Cloud Pak Deployer - **[undeploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/undeployClientOnboardingCloudPakDeployerEnterpriseWithGitea.bat)**
+   **Windows** - *CP4BA 23.0.2* - Enterprise deployment via Cloud Pak Deployer - **[undeploy](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/undeployClientOnboardingCloudPakDeployerEnterpriseWithGitea.bat)**
 
 2. Update the two variables `ocLoginServer` and `ocLoginToken` defined at the top of the bat/sh file with your specific details.
 

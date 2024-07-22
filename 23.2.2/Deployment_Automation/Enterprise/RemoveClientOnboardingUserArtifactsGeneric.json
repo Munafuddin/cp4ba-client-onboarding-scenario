@@ -1,7 +1,7 @@
 {
 	"comment": "Contains the steps required to undeploy all user created artifacts as part of the labs but not the lab artifacts nor the Client Onboarding solution artifacts",
 	"fileVersion": "1.0.2",
-	"fileLocation": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/Enterprise/RemoveClientOnboardingUserArtifactsGeneric.json",
+	"fileLocation": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/Enterprise/RemoveClientOnboardingUserArtifactsGeneric.json",
 	"requiredToolVersion": ">=1.1.40 <1.2.0",
 	"requiredCP4BAVersion": ">=23.2.2 <24.0.0",
 	"requiredCP4BAPattern": "Enterprise",
@@ -226,7 +226,7 @@
 												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Automation%20Decision%20Services/ADSCleanupHelper.twx"
 											},
 											{
-												"url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/Automation%20Decision%20Services/ADSMongoDB_NetworkPolicy$$(cp4baVersionShort)$$.json"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/Automation%20Decision%20Services/ADSMongoDB_NetworkPolicy$$(cp4baVersionShort)$$.json"
 											}
 										]
 									}
