@@ -1,10 +1,10 @@
-CP4BA Deployment Automation Utility - 1.1.70 (July 04 2024) - Invoked from './deployClientOnboardingStarter.sh', Version '1.1.11' (Download path 'https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/deployClientOnboardingStarter.sh')
+CP4BA Deployment Automation Utility - 1.1.70 (July 04 2024) - Invoked from './deployClientOnboardingStarter.sh', Version '1.1.11' (Download path 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.sh')
 
 
 Bootstrap Debug-String: '*=FINEST'
 2024-07-22T17:33:01 com.ibm.dba.swat.cp4ba.util.http.HTTPProxySettings.Constructor - FINE - Proxy Settings: Scheme 'HTTP', host '-not set-', port '-not set-', user '-not set-', pwd '-not set-'
 2024-07-22T17:33:02 com.ibm.dba.swat.cp4ba.deployment.config.BatShFileHandler.checkBatchFileVersion - FINE - Starting to check if new version of batch file './deployClientOnboardingStarter.sh' exists
-2024-07-22T17:33:02 com.ibm.dba.swat.cp4ba.deployment.config.BatShFileHandler.checkBatchFileVersion - FINE - sourceScriptName 'deployClientOnboardingStarter.sh', scriptDownloadURL 'https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/deployClientOnboardingStarter.sh', local fileVersion '1.1.11'
+2024-07-22T17:33:02 com.ibm.dba.swat.cp4ba.deployment.config.BatShFileHandler.checkBatchFileVersion - FINE - sourceScriptName 'deployClientOnboardingStarter.sh', scriptDownloadURL 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.sh', local fileVersion '1.1.11'
 2024-07-22T17:33:02 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - > Entering - Get URL 'GET /IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/deployClientOnboardingStarter.sh'
 2024-07-22T17:33:03 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - Starting download of file - fileName 'deployClientOnboardingStarter.sh', encoding 'UTF-8', fileSize '-unknown-'
 2024-07-22T17:33:03 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - Completed download of file - fileName 'deployClientOnboardingStarter.sh', fileSize '16.1 kB'
@@ -25,7 +25,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/.gitignore",
   "name": ".gitignore",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/.gitignore",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/.gitignore",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/1933786028b34335c31259f63f8374482b769a74",
   "type": "file",
   "sha": "1933786028b34335c31259f63f8374482b769a74",
@@ -41,7 +41,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/AddUsersToPlatform.json",
   "name": "AddUsersToPlatform.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/AddUsersToPlatform.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/AddUsersToPlatform.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/8164cfdaf7f659fbff1179de6caad3fe9cb80692",
   "type": "file",
   "sha": "8164cfdaf7f659fbff1179de6caad3fe9cb80692",
@@ -57,7 +57,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingEmbeddedGitea.json",
   "name": "DeployClientOnboardingEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/f6710fe472feacaedfd3cd00da630abbc7dcd013",
   "type": "file",
   "sha": "f6710fe472feacaedfd3cd00da630abbc7dcd013",
@@ -73,7 +73,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingLabsConfigureWFForBusinessUsers.json",
   "name": "DeployClientOnboardingLabsConfigureWFForBusinessUsers.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingLabsConfigureWFForBusinessUsers.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingLabsConfigureWFForBusinessUsers.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/d5ee38e3da04d15628cfdb721e751486d10ca7a5",
   "type": "file",
   "sha": "d5ee38e3da04d15628cfdb721e751486d10ca7a5",
@@ -89,7 +89,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingLabsEmbeddedGitea.json",
   "name": "DeployClientOnboardingLabsEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingLabsEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingLabsEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/4c092adf0ee3fe03d9f2ac92e6d0cf3549cf55d4",
   "type": "file",
   "sha": "4c092adf0ee3fe03d9f2ac92e6d0cf3549cf55d4",
@@ -105,7 +105,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingScenarioEmbeddedGitea.json",
   "name": "DeployClientOnboardingScenarioEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingScenarioEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingScenarioEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/505efd8896a044a2fe50749f497d3a97d2ac63ec",
   "type": "file",
   "sha": "505efd8896a044a2fe50749f497d3a97d2ac63ec",
@@ -121,7 +121,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/DeployEmailCapability.json",
   "name": "DeployEmailCapability.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployEmailCapability.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployEmailCapability.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/7f474d7efb02f99ddd0cfa2eeb9bf11d37e99531",
   "type": "file",
   "sha": "7f474d7efb02f99ddd0cfa2eeb9bf11d37e99531",
@@ -137,7 +137,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveAllCustomArtifacts.json",
   "name": "RemoveAllCustomArtifacts.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveAllCustomArtifacts.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveAllCustomArtifacts.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/98cec1404ceff25dc867b77bfcdbf42d7fa85ea0",
   "type": "file",
   "sha": "98cec1404ceff25dc867b77bfcdbf42d7fa85ea0",
@@ -153,7 +153,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingArtifactsEmbeddedGitea.json",
   "name": "RemoveClientOnboardingArtifactsEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingArtifactsEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveClientOnboardingArtifactsEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/a4d1a1b3303bb88c4767982807dc9b5423fe4356",
   "type": "file",
   "sha": "a4d1a1b3303bb88c4767982807dc9b5423fe4356",
@@ -169,7 +169,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingLabArtifactsEmbeddedGitea.json",
   "name": "RemoveClientOnboardingLabArtifactsEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingLabArtifactsEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveClientOnboardingLabArtifactsEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/19fbb2debc5b6a50607e3be9a756894f76342b61",
   "type": "file",
   "sha": "19fbb2debc5b6a50607e3be9a756894f76342b61",
@@ -185,7 +185,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingScenarioArtifactsEmbeddedGitea.json",
   "name": "RemoveClientOnboardingScenarioArtifactsEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingScenarioArtifactsEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveClientOnboardingScenarioArtifactsEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/70683ff74d209f117f79ce221b0e3da99e66a3f9",
   "type": "file",
   "sha": "70683ff74d209f117f79ce221b0e3da99e66a3f9",
@@ -201,7 +201,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingUserArtifactsEmbeddedGitea.json",
   "name": "RemoveClientOnboardingUserArtifactsEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingUserArtifactsEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveClientOnboardingUserArtifactsEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/9b9623ee69d79daccf2679a7eca96e6f10eca1f2",
   "type": "file",
   "sha": "9b9623ee69d79daccf2679a7eca96e6f10eca1f2",
@@ -217,7 +217,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveEmailCapability.json",
   "name": "RemoveEmailCapability.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveEmailCapability.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveEmailCapability.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/1dc37d2dd1f1d495cd99f9b4b3206f84c618e727",
   "type": "file",
   "sha": "1dc37d2dd1f1d495cd99f9b4b3206f84c618e727",
@@ -233,7 +233,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/config-deploy.properties",
   "name": "config-deploy.properties",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-deploy.properties",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-deploy.properties",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/99b4e4cd996a818186ad7152c51d0a1de3de4e6b",
   "type": "file",
   "sha": "99b4e4cd996a818186ad7152c51d0a1de3de4e6b",
@@ -249,7 +249,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/config-deployEmail.properties",
   "name": "config-deployEmail.properties",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-deployEmail.properties",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-deployEmail.properties",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/526ce60be9fafca981bdd7b8eb491c702495b6cd",
   "type": "file",
   "sha": "526ce60be9fafca981bdd7b8eb491c702495b6cd",
@@ -265,7 +265,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/config-undeploy.properties",
   "name": "config-undeploy.properties",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-undeploy.properties",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-undeploy.properties",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/ee6c9a96c0575a7139e5a1fbba132f1e53e74427",
   "type": "file",
   "sha": "ee6c9a96c0575a7139e5a1fbba132f1e53e74427",
@@ -281,7 +281,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/config-undeployEmail.properties",
   "name": "config-undeployEmail.properties",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-undeployEmail.properties",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-undeployEmail.properties",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/1dae14134bb565af09b95241bf24f669104c7e75",
   "type": "file",
   "sha": "1dae14134bb565af09b95241bf24f669104c7e75",
@@ -290,7 +290,7 @@ Response:
 ]
 2024-07-22T17:33:03 com.ibm.dba.swat.cp4ba.tools.git.GitBasedBootstrapping.executeRESTGetRequest - FINE - < Exiting - Duration: 334 msecs
 2024-07-22T17:33:03 com.ibm.dba.swat.cp4ba.deployment.config.PropertiesFileHandler.checkPropsFileVersion - FINE - Starting to check version of common properties file 'config-deploy.properties' and geo properties file 'config-deploy_'
-2024-07-22T17:33:03 com.ibm.dba.swat.cp4ba.deployment.config.PropertiesFileHandler.checkAndUpdatePropertiesFile - FINE - downloadURL 'https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-deploy.properties', local fileVersion '1.1.16'
+2024-07-22T17:33:03 com.ibm.dba.swat.cp4ba.deployment.config.PropertiesFileHandler.checkAndUpdatePropertiesFile - FINE - downloadURL 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-deploy.properties', local fileVersion '1.1.16'
 2024-07-22T17:33:03 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - > Entering - Get URL 'GET /IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-deploy.properties'
 2024-07-22T17:33:03 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - Starting download of file - fileName 'config-deploy.properties', encoding 'UTF-8', fileSize '-unknown-'
 2024-07-22T17:33:03 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - Completed download of file - fileName 'config-deploy.properties', fileSize '19.9 kB'
@@ -306,7 +306,7 @@ Response:
 2024-07-22T17:33:03 com.ibm.dba.swat.cp4ba.util.BooleanLogicHandler.resolveBooleanLogic - FINEST - Evaluation result at level 1 is: false
 2024-07-22T17:33:03 com.ibm.dba.swat.cp4ba.util.BooleanLogicHandler.resolveBooleanLogic - FINEST - Evaluated result to 'false'
 2024-07-22T17:33:03 CommandLine.Constructor - FINEST - Command line parameters:
-scriptDownloadPath 'https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/deployClientOnboardingStarter.sh'
+scriptDownloadPath 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.sh'
 scriptSource 'deployClientOnboardingStarter.sh'
 scriptName './deployClientOnboardingStarter.sh'
 scriptVersion '1.1.11'
@@ -899,7 +899,7 @@ Geo 'DEFAULT', OCP environment 'apps.669dc89a417006001efe85f0.ocp.techzone.ibm.c
 Using automation script '/Users/akshayduduskar/git/cp4ba-client-onboarding-scenario/Starter/DeployClientOnboardingEmbeddedGitea.json'
 2024-07-22T17:34:03 com.ibm.dba.swat.cp4ba.deployment.config.action.AutomationScriptHandler.parseAutomationScript - FINE - Starting to load automation script
 2024-07-22T17:34:03 com.ibm.dba.swat.cp4ba.deployment.config.action.AutomationScriptHandler.parseAutomationScript - FINE - Handling file '/Users/akshayduduskar/git/cp4ba-client-onboarding-scenario/Starter/DeployClientOnboardingEmbeddedGitea.json'
-2024-07-22T17:34:03 com.ibm.dba.swat.cp4ba.deployment.config.action.AutomationScriptHandler.parseAutomationScript - FINE - fileLocation 'https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingEmbeddedGitea.json', fileVersion '1.0.37'
+2024-07-22T17:34:03 com.ibm.dba.swat.cp4ba.deployment.config.action.AutomationScriptHandler.parseAutomationScript - FINE - fileLocation 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingEmbeddedGitea.json', fileVersion '1.0.37'
 2024-07-22T17:34:03 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - > Entering - Get URL 'GET /IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingEmbeddedGitea.json'
 2024-07-22T17:34:03 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - Starting download of file - fileName 'DeployClientOnboardingEmbeddedGitea.json', encoding 'UTF-8', fileSize '-unknown-'
 2024-07-22T17:34:03 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - Completed download of file - fileName 'DeployClientOnboardingEmbeddedGitea.json', fileSize '1.3 kB'
@@ -938,13 +938,13 @@ Error: Tool and environment validation failure messages:
 
 --- Execution failed ---
 
-CP4BA Deployment Automation Utility - 1.1.70 (July 04 2024) - Invoked from './deployClientOnboardingStarter.sh', Version '1.1.11' (Download path 'https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/deployClientOnboardingStarter.sh')
+CP4BA Deployment Automation Utility - 1.1.70 (July 04 2024) - Invoked from './deployClientOnboardingStarter.sh', Version '1.1.11' (Download path 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.sh')
 
 
 Bootstrap Debug-String: '*=FINEST'
 2024-07-22T17:41:57 com.ibm.dba.swat.cp4ba.util.http.HTTPProxySettings.Constructor - FINE - Proxy Settings: Scheme 'HTTP', host '-not set-', port '-not set-', user '-not set-', pwd '-not set-'
 2024-07-22T17:41:57 com.ibm.dba.swat.cp4ba.deployment.config.BatShFileHandler.checkBatchFileVersion - FINE - Starting to check if new version of batch file './deployClientOnboardingStarter.sh' exists
-2024-07-22T17:41:57 com.ibm.dba.swat.cp4ba.deployment.config.BatShFileHandler.checkBatchFileVersion - FINE - sourceScriptName 'deployClientOnboardingStarter.sh', scriptDownloadURL 'https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/deployClientOnboardingStarter.sh', local fileVersion '1.1.11'
+2024-07-22T17:41:57 com.ibm.dba.swat.cp4ba.deployment.config.BatShFileHandler.checkBatchFileVersion - FINE - sourceScriptName 'deployClientOnboardingStarter.sh', scriptDownloadURL 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.sh', local fileVersion '1.1.11'
 2024-07-22T17:41:58 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - > Entering - Get URL 'GET /IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/deployClientOnboardingStarter.sh'
 2024-07-22T17:41:58 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - Starting download of file - fileName 'deployClientOnboardingStarter.sh', encoding 'UTF-8', fileSize '-unknown-'
 2024-07-22T17:41:58 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - Completed download of file - fileName 'deployClientOnboardingStarter.sh', fileSize '16.1 kB'
@@ -965,7 +965,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/.gitignore",
   "name": ".gitignore",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/.gitignore",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/.gitignore",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/1933786028b34335c31259f63f8374482b769a74",
   "type": "file",
   "sha": "1933786028b34335c31259f63f8374482b769a74",
@@ -981,7 +981,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/AddUsersToPlatform.json",
   "name": "AddUsersToPlatform.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/AddUsersToPlatform.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/AddUsersToPlatform.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/8164cfdaf7f659fbff1179de6caad3fe9cb80692",
   "type": "file",
   "sha": "8164cfdaf7f659fbff1179de6caad3fe9cb80692",
@@ -997,7 +997,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingEmbeddedGitea.json",
   "name": "DeployClientOnboardingEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/f6710fe472feacaedfd3cd00da630abbc7dcd013",
   "type": "file",
   "sha": "f6710fe472feacaedfd3cd00da630abbc7dcd013",
@@ -1013,7 +1013,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingLabsConfigureWFForBusinessUsers.json",
   "name": "DeployClientOnboardingLabsConfigureWFForBusinessUsers.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingLabsConfigureWFForBusinessUsers.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingLabsConfigureWFForBusinessUsers.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/d5ee38e3da04d15628cfdb721e751486d10ca7a5",
   "type": "file",
   "sha": "d5ee38e3da04d15628cfdb721e751486d10ca7a5",
@@ -1029,7 +1029,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingLabsEmbeddedGitea.json",
   "name": "DeployClientOnboardingLabsEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingLabsEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingLabsEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/4c092adf0ee3fe03d9f2ac92e6d0cf3549cf55d4",
   "type": "file",
   "sha": "4c092adf0ee3fe03d9f2ac92e6d0cf3549cf55d4",
@@ -1045,7 +1045,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingScenarioEmbeddedGitea.json",
   "name": "DeployClientOnboardingScenarioEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingScenarioEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingScenarioEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/505efd8896a044a2fe50749f497d3a97d2ac63ec",
   "type": "file",
   "sha": "505efd8896a044a2fe50749f497d3a97d2ac63ec",
@@ -1061,7 +1061,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/DeployEmailCapability.json",
   "name": "DeployEmailCapability.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployEmailCapability.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployEmailCapability.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/7f474d7efb02f99ddd0cfa2eeb9bf11d37e99531",
   "type": "file",
   "sha": "7f474d7efb02f99ddd0cfa2eeb9bf11d37e99531",
@@ -1077,7 +1077,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveAllCustomArtifacts.json",
   "name": "RemoveAllCustomArtifacts.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveAllCustomArtifacts.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveAllCustomArtifacts.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/98cec1404ceff25dc867b77bfcdbf42d7fa85ea0",
   "type": "file",
   "sha": "98cec1404ceff25dc867b77bfcdbf42d7fa85ea0",
@@ -1093,7 +1093,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingArtifactsEmbeddedGitea.json",
   "name": "RemoveClientOnboardingArtifactsEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingArtifactsEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveClientOnboardingArtifactsEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/a4d1a1b3303bb88c4767982807dc9b5423fe4356",
   "type": "file",
   "sha": "a4d1a1b3303bb88c4767982807dc9b5423fe4356",
@@ -1109,7 +1109,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingLabArtifactsEmbeddedGitea.json",
   "name": "RemoveClientOnboardingLabArtifactsEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingLabArtifactsEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveClientOnboardingLabArtifactsEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/19fbb2debc5b6a50607e3be9a756894f76342b61",
   "type": "file",
   "sha": "19fbb2debc5b6a50607e3be9a756894f76342b61",
@@ -1125,7 +1125,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingScenarioArtifactsEmbeddedGitea.json",
   "name": "RemoveClientOnboardingScenarioArtifactsEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingScenarioArtifactsEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveClientOnboardingScenarioArtifactsEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/70683ff74d209f117f79ce221b0e3da99e66a3f9",
   "type": "file",
   "sha": "70683ff74d209f117f79ce221b0e3da99e66a3f9",
@@ -1141,7 +1141,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingUserArtifactsEmbeddedGitea.json",
   "name": "RemoveClientOnboardingUserArtifactsEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingUserArtifactsEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveClientOnboardingUserArtifactsEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/9b9623ee69d79daccf2679a7eca96e6f10eca1f2",
   "type": "file",
   "sha": "9b9623ee69d79daccf2679a7eca96e6f10eca1f2",
@@ -1157,7 +1157,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveEmailCapability.json",
   "name": "RemoveEmailCapability.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveEmailCapability.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveEmailCapability.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/1dc37d2dd1f1d495cd99f9b4b3206f84c618e727",
   "type": "file",
   "sha": "1dc37d2dd1f1d495cd99f9b4b3206f84c618e727",
@@ -1173,7 +1173,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/config-deploy.properties",
   "name": "config-deploy.properties",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-deploy.properties",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-deploy.properties",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/99b4e4cd996a818186ad7152c51d0a1de3de4e6b",
   "type": "file",
   "sha": "99b4e4cd996a818186ad7152c51d0a1de3de4e6b",
@@ -1189,7 +1189,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/config-deployEmail.properties",
   "name": "config-deployEmail.properties",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-deployEmail.properties",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-deployEmail.properties",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/526ce60be9fafca981bdd7b8eb491c702495b6cd",
   "type": "file",
   "sha": "526ce60be9fafca981bdd7b8eb491c702495b6cd",
@@ -1205,7 +1205,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/config-undeploy.properties",
   "name": "config-undeploy.properties",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-undeploy.properties",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-undeploy.properties",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/ee6c9a96c0575a7139e5a1fbba132f1e53e74427",
   "type": "file",
   "sha": "ee6c9a96c0575a7139e5a1fbba132f1e53e74427",
@@ -1221,7 +1221,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/config-undeployEmail.properties",
   "name": "config-undeployEmail.properties",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-undeployEmail.properties",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-undeployEmail.properties",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/1dae14134bb565af09b95241bf24f669104c7e75",
   "type": "file",
   "sha": "1dae14134bb565af09b95241bf24f669104c7e75",
@@ -1230,7 +1230,7 @@ Response:
 ]
 2024-07-22T17:41:59 com.ibm.dba.swat.cp4ba.tools.git.GitBasedBootstrapping.executeRESTGetRequest - FINE - < Exiting - Duration: 786 msecs
 2024-07-22T17:41:59 com.ibm.dba.swat.cp4ba.deployment.config.PropertiesFileHandler.checkPropsFileVersion - FINE - Starting to check version of common properties file 'config-deploy.properties' and geo properties file 'config-deploy_'
-2024-07-22T17:41:59 com.ibm.dba.swat.cp4ba.deployment.config.PropertiesFileHandler.checkAndUpdatePropertiesFile - FINE - downloadURL 'https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-deploy.properties', local fileVersion '1.1.16'
+2024-07-22T17:41:59 com.ibm.dba.swat.cp4ba.deployment.config.PropertiesFileHandler.checkAndUpdatePropertiesFile - FINE - downloadURL 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-deploy.properties', local fileVersion '1.1.16'
 2024-07-22T17:41:59 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - > Entering - Get URL 'GET /IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-deploy.properties'
 2024-07-22T17:41:59 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - Starting download of file - fileName 'config-deploy.properties', encoding 'UTF-8', fileSize '-unknown-'
 2024-07-22T17:41:59 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - Completed download of file - fileName 'config-deploy.properties', fileSize '19.9 kB'
@@ -1246,7 +1246,7 @@ Response:
 2024-07-22T17:41:59 com.ibm.dba.swat.cp4ba.util.BooleanLogicHandler.resolveBooleanLogic - FINEST - Evaluation result at level 1 is: false
 2024-07-22T17:41:59 com.ibm.dba.swat.cp4ba.util.BooleanLogicHandler.resolveBooleanLogic - FINEST - Evaluated result to 'false'
 2024-07-22T17:41:59 CommandLine.Constructor - FINEST - Command line parameters:
-scriptDownloadPath 'https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/deployClientOnboardingStarter.sh'
+scriptDownloadPath 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.sh'
 scriptSource 'deployClientOnboardingStarter.sh'
 scriptName './deployClientOnboardingStarter.sh'
 scriptVersion '1.1.11'
@@ -1839,7 +1839,7 @@ Geo 'DEFAULT', OCP environment 'apps.669dc89a417006001efe85f0.ocp.techzone.ibm.c
 Using automation script '/Users/akshayduduskar/git/cp4ba-client-onboarding-scenario/Starter/DeployClientOnboardingEmbeddedGitea.json'
 2024-07-22T17:43:17 com.ibm.dba.swat.cp4ba.deployment.config.action.AutomationScriptHandler.parseAutomationScript - FINE - Starting to load automation script
 2024-07-22T17:43:17 com.ibm.dba.swat.cp4ba.deployment.config.action.AutomationScriptHandler.parseAutomationScript - FINE - Handling file '/Users/akshayduduskar/git/cp4ba-client-onboarding-scenario/Starter/DeployClientOnboardingEmbeddedGitea.json'
-2024-07-22T17:43:17 com.ibm.dba.swat.cp4ba.deployment.config.action.AutomationScriptHandler.parseAutomationScript - FINE - fileLocation 'https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingEmbeddedGitea.json', fileVersion '1.0.37'
+2024-07-22T17:43:17 com.ibm.dba.swat.cp4ba.deployment.config.action.AutomationScriptHandler.parseAutomationScript - FINE - fileLocation 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingEmbeddedGitea.json', fileVersion '1.0.37'
 2024-07-22T17:43:17 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - > Entering - Get URL 'GET /IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingEmbeddedGitea.json'
 2024-07-22T17:43:18 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - Starting download of file - fileName 'DeployClientOnboardingEmbeddedGitea.json', encoding 'UTF-8', fileSize '-unknown-'
 2024-07-22T17:43:18 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - Completed download of file - fileName 'DeployClientOnboardingEmbeddedGitea.json', fileSize '1.3 kB'
@@ -1902,7 +1902,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/.gitignore",
   "name": ".gitignore",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/.gitignore",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/.gitignore",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/1933786028b34335c31259f63f8374482b769a74",
   "type": "file",
   "sha": "1933786028b34335c31259f63f8374482b769a74",
@@ -1918,7 +1918,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/AddUsersToPlatform.json",
   "name": "AddUsersToPlatform.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/AddUsersToPlatform.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/AddUsersToPlatform.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/8164cfdaf7f659fbff1179de6caad3fe9cb80692",
   "type": "file",
   "sha": "8164cfdaf7f659fbff1179de6caad3fe9cb80692",
@@ -1934,7 +1934,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingEmbeddedGitea.json",
   "name": "DeployClientOnboardingEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/f6710fe472feacaedfd3cd00da630abbc7dcd013",
   "type": "file",
   "sha": "f6710fe472feacaedfd3cd00da630abbc7dcd013",
@@ -1950,7 +1950,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingLabsConfigureWFForBusinessUsers.json",
   "name": "DeployClientOnboardingLabsConfigureWFForBusinessUsers.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingLabsConfigureWFForBusinessUsers.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingLabsConfigureWFForBusinessUsers.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/d5ee38e3da04d15628cfdb721e751486d10ca7a5",
   "type": "file",
   "sha": "d5ee38e3da04d15628cfdb721e751486d10ca7a5",
@@ -1966,7 +1966,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingLabsEmbeddedGitea.json",
   "name": "DeployClientOnboardingLabsEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingLabsEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingLabsEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/4c092adf0ee3fe03d9f2ac92e6d0cf3549cf55d4",
   "type": "file",
   "sha": "4c092adf0ee3fe03d9f2ac92e6d0cf3549cf55d4",
@@ -1982,7 +1982,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingScenarioEmbeddedGitea.json",
   "name": "DeployClientOnboardingScenarioEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployClientOnboardingScenarioEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingScenarioEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/505efd8896a044a2fe50749f497d3a97d2ac63ec",
   "type": "file",
   "sha": "505efd8896a044a2fe50749f497d3a97d2ac63ec",
@@ -1998,7 +1998,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/DeployEmailCapability.json",
   "name": "DeployEmailCapability.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/DeployEmailCapability.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployEmailCapability.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/7f474d7efb02f99ddd0cfa2eeb9bf11d37e99531",
   "type": "file",
   "sha": "7f474d7efb02f99ddd0cfa2eeb9bf11d37e99531",
@@ -2014,7 +2014,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveAllCustomArtifacts.json",
   "name": "RemoveAllCustomArtifacts.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveAllCustomArtifacts.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveAllCustomArtifacts.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/98cec1404ceff25dc867b77bfcdbf42d7fa85ea0",
   "type": "file",
   "sha": "98cec1404ceff25dc867b77bfcdbf42d7fa85ea0",
@@ -2030,7 +2030,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingArtifactsEmbeddedGitea.json",
   "name": "RemoveClientOnboardingArtifactsEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingArtifactsEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveClientOnboardingArtifactsEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/a4d1a1b3303bb88c4767982807dc9b5423fe4356",
   "type": "file",
   "sha": "a4d1a1b3303bb88c4767982807dc9b5423fe4356",
@@ -2046,7 +2046,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingLabArtifactsEmbeddedGitea.json",
   "name": "RemoveClientOnboardingLabArtifactsEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingLabArtifactsEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveClientOnboardingLabArtifactsEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/19fbb2debc5b6a50607e3be9a756894f76342b61",
   "type": "file",
   "sha": "19fbb2debc5b6a50607e3be9a756894f76342b61",
@@ -2062,7 +2062,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingScenarioArtifactsEmbeddedGitea.json",
   "name": "RemoveClientOnboardingScenarioArtifactsEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingScenarioArtifactsEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveClientOnboardingScenarioArtifactsEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/70683ff74d209f117f79ce221b0e3da99e66a3f9",
   "type": "file",
   "sha": "70683ff74d209f117f79ce221b0e3da99e66a3f9",
@@ -2078,7 +2078,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingUserArtifactsEmbeddedGitea.json",
   "name": "RemoveClientOnboardingUserArtifactsEmbeddedGitea.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveClientOnboardingUserArtifactsEmbeddedGitea.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveClientOnboardingUserArtifactsEmbeddedGitea.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/9b9623ee69d79daccf2679a7eca96e6f10eca1f2",
   "type": "file",
   "sha": "9b9623ee69d79daccf2679a7eca96e6f10eca1f2",
@@ -2094,7 +2094,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/RemoveEmailCapability.json",
   "name": "RemoveEmailCapability.json",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/RemoveEmailCapability.json",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/RemoveEmailCapability.json",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/1dc37d2dd1f1d495cd99f9b4b3206f84c618e727",
   "type": "file",
   "sha": "1dc37d2dd1f1d495cd99f9b4b3206f84c618e727",
@@ -2110,7 +2110,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/config-deploy.properties",
   "name": "config-deploy.properties",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-deploy.properties",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-deploy.properties",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/99b4e4cd996a818186ad7152c51d0a1de3de4e6b",
   "type": "file",
   "sha": "99b4e4cd996a818186ad7152c51d0a1de3de4e6b",
@@ -2126,7 +2126,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/config-deployEmail.properties",
   "name": "config-deployEmail.properties",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-deployEmail.properties",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-deployEmail.properties",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/526ce60be9fafca981bdd7b8eb491c702495b6cd",
   "type": "file",
   "sha": "526ce60be9fafca981bdd7b8eb491c702495b6cd",
@@ -2142,7 +2142,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/config-undeploy.properties",
   "name": "config-undeploy.properties",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-undeploy.properties",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-undeploy.properties",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/ee6c9a96c0575a7139e5a1fbba132f1e53e74427",
   "type": "file",
   "sha": "ee6c9a96c0575a7139e5a1fbba132f1e53e74427",
@@ -2158,7 +2158,7 @@ Response:
   },
   "html_url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.1/Deployment_Automation/Starter/config-undeployEmail.properties",
   "name": "config-undeployEmail.properties",
-  "download_url": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-undeployEmail.properties",
+  "download_url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-undeployEmail.properties",
   "git_url": "https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/git/blobs/1dae14134bb565af09b95241bf24f669104c7e75",
   "type": "file",
   "sha": "1dae14134bb565af09b95241bf24f669104c7e75",
@@ -2167,7 +2167,7 @@ Response:
 ]
 2024-07-22T17:45:38 com.ibm.dba.swat.cp4ba.tools.git.GitBasedBootstrapping.executeRESTGetRequest - FINE - < Exiting - Duration: 369 msecs
 2024-07-22T17:45:38 com.ibm.dba.swat.cp4ba.deployment.config.PropertiesFileHandler.checkPropsFileVersion - FINE - Starting to check version of common properties file 'config-deploy.properties' and geo properties file 'config-deploy_'
-2024-07-22T17:45:38 com.ibm.dba.swat.cp4ba.deployment.config.PropertiesFileHandler.checkAndUpdatePropertiesFile - FINE - downloadURL 'https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-deploy.properties', local fileVersion '1.1.16'
+2024-07-22T17:45:38 com.ibm.dba.swat.cp4ba.deployment.config.PropertiesFileHandler.checkAndUpdatePropertiesFile - FINE - downloadURL 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/config-deploy.properties', local fileVersion '1.1.16'
 2024-07-22T17:45:38 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - > Entering - Get URL 'GET /IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/config-deploy.properties'
 2024-07-22T17:45:38 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - Starting download of file - fileName 'config-deploy.properties', encoding 'UTF-8', fileSize '-unknown-'
 2024-07-22T17:45:38 com.ibm.dba.swat.cp4ba.tools.git.GitHubManagerUtil.downloadFile - FINE - Completed download of file - fileName 'config-deploy.properties', fileSize '19.9 kB'

@@ -9,7 +9,7 @@ Deploy all Client Onboarding scenario artifacts including those used for labs on
 
 Starting to read OCP configuration
 
-CP4BA Deployment Automation Utility - 1.1.70 (July 04 2024) - Invoked from './deployClientOnboardingStarter.sh', Version '1.1.11' (Download path 'https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/deployClientOnboardingStarter.sh')
+CP4BA Deployment Automation Utility - 1.1.70 (July 04 2024) - Invoked from './deployClientOnboardingStarter.sh', Version '1.1.11' (Download path 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.sh')
 
 
 
@@ -42,7 +42,7 @@ Deploy all Client Onboarding scenario artifacts including those used for labs on
 
 Starting to read OCP configuration
 
-CP4BA Deployment Automation Utility - 1.1.70 (July 04 2024) - Invoked from './deployClientOnboardingStarter.sh', Version '1.1.11' (Download path 'https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/deployClientOnboardingStarter.sh')
+CP4BA Deployment Automation Utility - 1.1.70 (July 04 2024) - Invoked from './deployClientOnboardingStarter.sh', Version '1.1.11' (Download path 'https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.sh')
 
 
 
