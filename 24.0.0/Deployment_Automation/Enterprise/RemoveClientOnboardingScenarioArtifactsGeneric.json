@@ -1,7 +1,7 @@
 {
 	"comment": "Contains the steps required to undeploy all artifacts of the Client Onboarding scenario itself but not the artifacts used in labs and/or user created artifacts",
 	"fileVersion": "1.0.0",
-	"fileLocation": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/24.0.0/Deployment_Automation/Enterprise/RemoveClientOnboardingScenarioArtifactsGeneric.json",
+	"fileLocation": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/24.0.0/Deployment_Automation/Enterprise/RemoveClientOnboardingScenarioArtifactsGeneric.json",
 	"requiredToolVersion": ">=1.1.40 <1.2.0",
 	"requiredCP4BAVersion": ">=24.0.0 <24.1.0",
 	"requiredCP4BAPattern": "Enterprise",
@@ -127,7 +127,7 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Workflow/Client_Onboarding.twx"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Workflow/Client_Onboarding.twx"
 											}
 										]
 									}

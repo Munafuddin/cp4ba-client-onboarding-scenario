@@ -1,6 +1,6 @@
 {
 	"fileVersion": "1.0.0",
-	"fileLocation": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/24.0.0/Deployment_Automation/Enterprise/DeployClientOnboardingManagePakDeployerGroups.json",
+	"fileLocation": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/24.0.0/Deployment_Automation/Enterprise/DeployClientOnboardingManagePakDeployerGroups.json",
 	"requiredToolVersion": ">=1.1.40 <1.2.0",
 	"requiredCP4BAVersion": ">=24.0.0 <24.1.0",
 	"requiredCP4BAPattern": "Enterprise",

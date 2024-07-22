@@ -1,7 +1,7 @@
 {
 	"comment": "Contains the steps required to allow business users to create, deploy, and test case solutions",
 	"fileVersion": "1.0.0",
-	"fileLocation": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/24.0.0/Deployment_Automation/Starter/DeployClientOnboardingLabsConfigureWFForBusinessUsers.json",
+	"fileLocation": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/24.0.0/Deployment_Automation/Starter/DeployClientOnboardingLabsConfigureWFForBusinessUsers.json",
 	"requiredToolVersion": ">=1.1.40 <1.2.0",
 	"requiredCP4BAVersion": ">=24.0.0 <24.1.0",
 	"requiredCP4BAPattern": "Starter",

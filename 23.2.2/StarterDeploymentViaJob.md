@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Use these instruction to deploy the end-to-end [Client Onboarding solution](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario) and its accompanying [labs](https://github.com/IBM/cp4ba-labs/tree/main/23.2.2/README.md) to a self-provisioned **Cloud Pak for Business Automation (CP4BA) 23.2.2** environment using an OpenShift Job.
+Use these instruction to deploy the end-to-end [Client Onboarding solution](https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario) and its accompanying [labs](https://github.com/IBM/cp4ba-labs/tree/main/23.2.2/README.md) to a self-provisioned **Cloud Pak for Business Automation (CP4BA) 23.2.2** environment using an OpenShift Job.
 
 This deployment approach does not require a separate machine with Java on it to run the deployment or the manual download of any resources. A different deployment approach using a separate machine, that offers more customization options, is described [here](StarterDeploymentSeparateMachine.md).
 
@@ -167,7 +167,7 @@ Once you have a suitable environment proceed to the chapter [Import Instructions
                oc project $(NAMESPACE);
                deploymenttype=`oc get icp4acluster -o json | grep -Po '\"olm_deployment_type\":.*\",' | awk -F': \\\"|\\\",' '{print $2}'`;
                deploymentversion=`oc get icp4acluster -o json | grep -Po '\"appVersion\":.*\",' | awk -F': \"|\",' '{print $2}'`;
-               curl -sLO https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$deploymentversion/Deployment_Automation/deployClientOnboardingStarterParam.sh;
+               curl -sLO https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$deploymentversion/Deployment_Automation/deployClientOnboardingStarterParam.sh;
                echo 'Downloaded client onboarding deploy sh file';
                chmod u+x deployClientOnboardingStarterParam.sh;
                ./deployClientOnboardingStarterParam.sh --ocls `oc whoami --show-server=true` --oclt `oc whoami -t` --op '$(LOG_DIR)' --ns '$(NAMESPACE)' --cl '$(configureLabs)' --ewflbu '$(enableWorkflowLabsForBusinessUsers)' --sc '$(ocpStorageClassForInternalMailServer)' --rpau '$(rpaBotExecutionUser)' --rpas '$(rpaServer)' --pdmtoc '$(printDetailedMessageToConsole)';"]

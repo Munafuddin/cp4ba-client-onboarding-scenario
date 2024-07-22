@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Use these instruction to deploy the out-of-box end-to-end [Client Onboarding solution](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario) to a self-provisioned Jam-in-a-box environment. For more information about Jam-in-a-box refer to the [Jam-in-a-box overview](https://github.com/IBM/cp4ba-jam-in-a-box) page.
+Use these instruction to deploy the out-of-box end-to-end [Client Onboarding solution](https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario) to a self-provisioned Jam-in-a-box environment. For more information about Jam-in-a-box refer to the [Jam-in-a-box overview](https://github.com/IBM/cp4ba-jam-in-a-box) page.
 
 
 ## Prerequisites
@@ -58,9 +58,9 @@ Use these instruction to deploy the out-of-box end-to-end [Client Onboarding sol
 
    2. **Save the deployment file** that corresponds to the operating system of your deployment machine into the directory created in step 1 (in the context menu of your browser select **Save as.../Save page as...** or similar)
 
-      **Linux/Mac** 	*CP4BA 22.0.1* - Starter deployment - **[deploy](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/22.0.1/Deployment_Automation/deployClientOnboardingStarter.sh)** (*Ensure to make the sh file executable by performing `chmod +x deployClientOnboardingStarter.sh`*)
+      **Linux/Mac** 	*CP4BA 22.0.1* - Starter deployment - **[deploy](https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/22.0.1/Deployment_Automation/deployClientOnboardingStarter.sh)** (*Ensure to make the sh file executable by performing `chmod +x deployClientOnboardingStarter.sh`*)
 
-      **Windows** - *CP4BA 22.0.1* - Starter deployment - **[deploy](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/22.0.1/Deployment_Automation/deployClientOnboardingStarter.bat)**
+      **Windows** - *CP4BA 22.0.1* - Starter deployment - **[deploy](https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/22.0.1/Deployment_Automation/deployClientOnboardingStarter.bat)**
 
 ### Update bat/sh File
 On Windows open the file **deployClientOnboardingStarter.bat**/on Linux or Mac open the file **deployClientOnboardingStarter.sh** in the text editor of your choice. **Update the variables defined at the top of the file with your specific details**:

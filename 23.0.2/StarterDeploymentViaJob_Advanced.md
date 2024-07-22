@@ -141,7 +141,7 @@ spec:
             oc project $(NAMESPACE);
             deploymenttype=`oc get icp4acluster -o json | grep -Po '\"olm_deployment_type\":.*\",' | awk -F': \\\"|\\\",' '{print $2}'`;
             deploymentversion=`oc get icp4acluster -o json | grep -Po '\"appVersion\":.*\",' | awk -F': \"|\",' '{print $2}'`;
-            curl -sLO https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$deploymentversion/Deployment_Automation/deployClientOnboardingStarterParam.sh;
+            curl -sLO https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$deploymentversion/Deployment_Automation/deployClientOnboardingStarterParam.sh;
             echo 'Downloaded client onboarding deploy sh file';
             chmod u+x deployClientOnboardingStarterParam.sh;
             ./deployClientOnboardingStarterParam.sh --ocls `oc whoami --show-server=true` --oclt `oc whoami -t` --op '$(LOG_DIR)' --ns '$(NAMESPACE)' --cl '$(configureLabs)' --ewflbu '$(enableWorkflowLabsForBusinessUsers)' --sc '$(ocpStorageClassForInternalMailServer)' --cu '$(createUsers)' --rpau '$(rpaBotExecutionUser)' --rpas '$(rpaServer)' --pdmtoc '$(printDetailedMessageToConsole)';"]
@@ -286,7 +286,7 @@ spec:
             oc project $(NAMESPACE);
             deploymenttype=`oc get icp4acluster -o json | grep -Po '\"olm_deployment_type\":.*\",' | awk -F': \\\"|\\\",' '{print $2}'`;
             deploymentversion=`oc get icp4acluster -o json | grep -Po '\"appVersion\":.*\",' | awk -F': \"|\",' '{print $2}'`;
-            curl -sLO https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$deploymentversion/Deployment_Automation/deployClientOnboardingStarterParam.sh;
+            curl -sLO https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$deploymentversion/Deployment_Automation/deployClientOnboardingStarterParam.sh;
             echo 'Downloaded client onboarding deploy sh file';
             chmod u+x deployClientOnboardingStarterParam.sh;
             ./deployClientOnboardingStarterParam.sh --ocls `oc whoami --show-server=true` --oclt `oc whoami -t` --op '$(LOG_DIR)' --ns '$(NAMESPACE)' --cl '$(configureLabs)' --ewflbu '$(enableWorkflowLabsForBusinessUsers)' --sc '$(ocpStorageClassForInternalMailServer)' --cu '$(createUsers)' --rpau '$(rpaBotExecutionUser)' --rpas '$(rpaServer)' --pdmtoc '$(printDetailedMessageToConsole)';"]
@@ -398,7 +398,7 @@ spec:
             oc project $(NAMESPACE);
             deploymenttype=`oc get icp4acluster -o json | grep -Po '\"olm_deployment_type\":.*\",' | awk -F': \\\"|\\\",' '{print $2}'`;
             deploymentversion=`oc get icp4acluster -o json | grep -Po '\"appVersion\":.*\",' | awk -F': \"|\",' '{print $2}'`;
-            curl -sLO https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$deploymentversion/Deployment_Automation/deployClientOnboardingStarterParam.sh;
+            curl -sLO https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$deploymentversion/Deployment_Automation/deployClientOnboardingStarterParam.sh;
             echo 'Downloaded client onboarding deploy sh file';
             chmod u+x deployClientOnboardingStarterParam.sh;
             ./deployClientOnboardingStarterParam.sh --ocls `oc whoami --show-server=true` --oclt `oc whoami -t` --op '$(LOG_DIR)' --ns '$(NAMESPACE)' --cl '$(configureLabs)' --ewflbu '$(enableWorkflowLabsForBusinessUsers)' --sc '$(ocpStorageClassForInternalMailServer)' --cu '$(createUsers)' --rpau '$(rpaBotExecutionUser)' --rpas '$(rpaServer)' --pdmtoc '$(printDetailedMessageToConsole)';"]
@@ -512,7 +512,7 @@ spec:
             oc project $(NAMESPACE);
             deploymenttype=`oc get icp4acluster -o json | grep -Po '\"olm_deployment_type\":.*\",' | awk -F': \\\"|\\\",' '{print $2}'`;
             deploymentversion=`oc get icp4acluster -o json | grep -Po '\"appVersion\":.*\",' | awk -F': \"|\",' '{print $2}'`;
-            curl -sLO https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$deploymentversion/Deployment_Automation/undeployClientOnboardingStarterParam.sh;
+            curl -sLO https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$deploymentversion/Deployment_Automation/undeployClientOnboardingStarterParam.sh;
             echo 'Downloaded client onboarding undeploy sh file';
             chmod u+x undeployClientOnboardingStarterParam.sh;
             ./undeployClientOnboardingStarterParam.sh --ocls `oc whoami --show-server=true` --oclt `oc whoami -t` --op '$(LOG_DIR)' --ns '$(NAMESPACE)' --cCOLUD '$(cleanupClientOnboardingLabs_UserData)' --cCOL '$(cleanupClientOnboardingLabs)' --cCOS '$(cleanupClientOnboardingScenario)' --pdmtoc '$(printDetailedMessageToConsole)';"]

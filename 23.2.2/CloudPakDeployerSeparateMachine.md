@@ -9,7 +9,7 @@
 > You need to have deployed at least the following capabilities in your CP4BA environment: Business Applications, Automation Decision Services, Workflow, Business Automation Insights.
 
 
-Use these instruction to deploy the end-to-end [Client Onboarding solution](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario) and its accompanying [labs](https://github.com/IBM/cp4ba-labs/tree/main/23.2.2/README.md) to a self-provisioned **Cloud Pak for Business Automation (CP4BA) 23.2.2** environment deployed via Cloud Pak Deployer.
+Use these instruction to deploy the end-to-end [Client Onboarding solution](https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario) and its accompanying [labs](https://github.com/IBM/cp4ba-labs/tree/main/23.2.2/README.md) to a self-provisioned **Cloud Pak for Business Automation (CP4BA) 23.2.2** environment deployed via Cloud Pak Deployer.
 
 This deployment approach requires a separate machine with Java on it to run the deployment and the manual download and modification of a file to kick off the deployment. It offers the largest flexibility for customized deployments.
 
@@ -46,9 +46,9 @@ A Windows, Linux, or Mac system with **Java 8** or later installed is required t
 
    2. **Save the deployment file** that corresponds to the operating system of your deployment machine into the directory created in step 1 (in the context menu of your browser select **Save as.../Save page as...** or similar)
 
-      **Linux/Mac** 	*CP4BA 23.2.2* - Enterprise deployment via Cloud Pak Deployer - **[deploy](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/deployClientOnboardingCloudPakDeployerEnterpriseWithGitea.sh)** (*Ensure to make the sh file executable by performing `chmod +x deployClientOnboardingCloudPakDeployerEnterpriseWithGitea.sh`*)
+      **Linux/Mac** 	*CP4BA 23.2.2* - Enterprise deployment via Cloud Pak Deployer - **[deploy](https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/deployClientOnboardingCloudPakDeployerEnterpriseWithGitea.sh)** (*Ensure to make the sh file executable by performing `chmod +x deployClientOnboardingCloudPakDeployerEnterpriseWithGitea.sh`*)
 
-      **Windows** - *CP4BA 23.2.2* - Enterprise deployment via Cloud Pak Deployer - **[deploy](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/deployClientOnboardingCloudPakDeployerEnterpriseWithGitea.bat)**
+      **Windows** - *CP4BA 23.2.2* - Enterprise deployment via Cloud Pak Deployer - **[deploy](https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/deployClientOnboardingCloudPakDeployerEnterpriseWithGitea.bat)**
 
 ### Update bat/sh File
 On Windows open the file **deployClientOnboardingCloudPakDeployerEnterpriseWithGitea.bat**/on Linux or Mac open the file **deployClientOnboardingCloudPakDeployerEnterpriseWithGitea.sh** in the text editor of your choice. 

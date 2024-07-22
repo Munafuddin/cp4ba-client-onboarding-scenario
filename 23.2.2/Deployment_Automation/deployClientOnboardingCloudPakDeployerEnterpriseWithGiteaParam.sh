@@ -329,7 +329,7 @@ FILENAME=$0
 # Version of this script file passed to execution environment
 SCRIPTVERSION=1.0.1
 # Download URL for this script
-SCRIPTDOWNLOADPATH=https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/${CP4BAVERSION%}/Deployment_Automation/${SCRIPTNAME%}
+SCRIPTDOWNLOADPATH=https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/${CP4BAVERSION%}/Deployment_Automation/${SCRIPTNAME%}
 
 
 # ----------------------------------------------------------------------------------------------------------

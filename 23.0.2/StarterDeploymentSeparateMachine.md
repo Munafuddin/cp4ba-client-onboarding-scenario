@@ -36,9 +36,9 @@ A Windows, Linux, or Mac system with **Java 8** or later installed is required t
 
    2. **Save the deployment file** that corresponds to the operating system of your deployment machine into the directory created in step 1 (in the context menu of your browser select **Save as.../Save page as...** or similar)
 
-      **Linux/Mac** 	*CP4BA 23.0.2* - Starter deployment - **[deploy](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/deployClientOnboardingStarter.sh)** (*Ensure to make the sh file executable by performing `chmod +x deployClientOnboardingStarter.sh`*)
+      **Linux/Mac** 	*CP4BA 23.0.2* - Starter deployment - **[deploy](https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/deployClientOnboardingStarter.sh)** (*Ensure to make the sh file executable by performing `chmod +x deployClientOnboardingStarter.sh`*)
 
-      **Windows** - *CP4BA 23.0.2* - Starter deployment - **[deploy](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/deployClientOnboardingStarter.bat)**
+      **Windows** - *CP4BA 23.0.2* - Starter deployment - **[deploy](https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/deployClientOnboardingStarter.bat)**
 
 ### Update bat/sh File
 On Windows open the file **deployClientOnboardingStarter.bat**/on Linux or Mac open the file **deployClientOnboardingStarter.sh** in the text editor of your choice. 

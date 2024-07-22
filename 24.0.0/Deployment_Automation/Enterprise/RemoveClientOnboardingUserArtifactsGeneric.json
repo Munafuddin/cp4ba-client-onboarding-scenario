@@ -1,7 +1,7 @@
 {
 	"comment": "Contains the steps required to undeploy all user created artifacts as part of the labs but not the lab artifacts nor the Client Onboarding solution artifacts",
 	"fileVersion": "1.0.0",
-	"fileLocation": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/24.0.0/Deployment_Automation/Enterprise/RemoveClientOnboardingUserArtifactsGeneric.json",
+	"fileLocation": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/24.0.0/Deployment_Automation/Enterprise/RemoveClientOnboardingUserArtifactsGeneric.json",
 	"requiredToolVersion": ">=1.1.40 <1.2.0",
 	"requiredCP4BAVersion": ">=24.0.0 <24.1.0",
 	"requiredCP4BAPattern": "Enterprise",
@@ -124,7 +124,7 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Navigator/ICNCleanupHelper.war"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Navigator/ICNCleanupHelper.war"
 											}
 										]
 									}
@@ -223,10 +223,10 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Automation%20Decision%20Services/ADSCleanupHelper.twx"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Automation%20Decision%20Services/ADSCleanupHelper.twx"
 											},
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/Automation%20Decision%20Services/ADSMongoDB_NetworkPolicy$$(cp4baVersionShort)$$.json"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/Automation%20Decision%20Services/ADSMongoDB_NetworkPolicy$$(cp4baVersionShort)$$.json"
 											}
 										]
 									}

@@ -173,7 +173,7 @@ Once you have a suitable environment proceed to the chapter [Import Instructions
                oc project $(NAMESPACE);
                deploymenttype=`oc get icp4acluster -o json | grep -Po '\"olm_deployment_type\":.*\",' | awk -F': \\\"|\\\",' '{print $2}'`;
                deploymentversion=`oc get icp4acluster -o json | grep -Po '\"appVersion\":.*\",' | awk -F': \"|\",' '{print $2}'`;
-               curl -sLO https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$deploymentversion/Deployment_Automation/deployClientOnboardingCloudPakDeployerEnterpriseWithGiteaParam.sh;
+               curl -sLO https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$deploymentversion/Deployment_Automation/deployClientOnboardingCloudPakDeployerEnterpriseWithGiteaParam.sh;
                echo 'Downloaded client onboarding sh file';
                chmod u+x deployClientOnboardingCloudPakDeployerEnterpriseWithGiteaParam.sh;
                ./deployClientOnboardingCloudPakDeployerEnterpriseWithGiteaParam.sh --ocls `oc whoami --show-server=true` --oclt `oc whoami -t` --op '$(LOG_DIR)' --ns '$(NAMESPACE)' --cl '$(configureLabs)' --ewflbu '$(enableWorkflowLabsForBusinessUsers)' --rpau '$(rpaBotExecutionUser)' --rpas '$(rpaServer)' --pdmtoc '$(printDetailedMessageToConsole)' --bd '$(bootstrapDebugString)' --ds '$(debugString)';"]

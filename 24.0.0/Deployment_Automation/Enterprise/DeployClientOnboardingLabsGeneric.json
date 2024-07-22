@@ -1,7 +1,7 @@
 {
 	"comment": "Contains the steps required to deploy the Client Onboarding labs",
 	"fileVersion": "1.0.0",
-	"fileLocation": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/24.0.0/Deployment_Automation/Enterprise/DeployClientOnboardingLabsGeneric.json",
+	"fileLocation": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/24.0.0/Deployment_Automation/Enterprise/DeployClientOnboardingLabsGeneric.json",
 	"requiredToolVersion": ">=1.1.59 <1.2.0",
 	"requiredCP4BAVersion": ">=24.0.0 <24.1.0",
 	"requiredCP4BAPattern": "Enterprise",
@@ -424,22 +424,22 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Banking%20Information%20-%20Automation%20Elite%20Inc.pdf"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Banking%20Information%20-%20Automation%20Elite%20Inc.pdf"
 											},
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Certificate%20of%20Incorporation%20-%20Automation%20Elite%20Inc.pdf"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Certificate%20of%20Incorporation%20-%20Automation%20Elite%20Inc.pdf"
 											},
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Utility%20Bill%20-%20Automation%20Elite%20Inc.pdf"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Utility%20Bill%20-%20Automation%20Elite%20Inc.pdf"
 											},
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/June%20Marie%20-%20Driver's%20License.png"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/June%20Marie%20-%20Driver's%20License.png"
 											},
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Legacy%20Consulting%20-%20Banking%20Information.pdf"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Legacy%20Consulting%20-%20Banking%20Information.pdf"
 											},
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Legacy%20Consulting%20-%20Certificate%20of%20Incorporation.pdf"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Legacy%20Consulting%20-%20Certificate%20of%20Incorporation.pdf"
 											}
 										]
 									}
@@ -784,7 +784,7 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Navigator/edsDataSourceSamplePlugin.jar"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Navigator/edsDataSourceSamplePlugin.jar"
 											}
 										]
 									}
@@ -831,7 +831,7 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Navigator/ICNDesktop.properties"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Navigator/ICNDesktop.properties"
 											}
 										]
 									}
@@ -1089,10 +1089,10 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Template.twx"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Template.twx"
 											},
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Document_Upload.twx"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Document_Upload.twx"
 											}
 										]
 									}
@@ -1264,13 +1264,13 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Workflow/DBExecutionHelper.twx"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Workflow/DBExecutionHelper.twx"
 											},
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Workflow/WXC_SERVICE.twx"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Workflow/WXC_SERVICE.twx"
 											},
 											{
-												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Workflow/WOLab-TableData.csv"
+												"url": "https://raw.githubusercontent.com/Munafuddin/cp4ba-client-onboarding-scenario/main/$$(cp4baVersion)$$/Solution%20Exports/Business%20Automation%20Workflow/WOLab-TableData.csv"
 											}
 										]
 									}
