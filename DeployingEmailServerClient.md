@@ -2,18 +2,18 @@
 
 ## Introduction
 
-Use these instruction to deploy an email server and web-based client to a Jam-in-A-Box/Starter deployment for Cloud Pak for Business Automation (CP4BA) 22.0.2 and 23.0.1.
+Use these instruction to deploy an email server and web-based client to a Jam-in-A-Box/Starter deployment for Cloud Pak for Business Automation (CP4BA) 22.0.2 and 23.2.2.
 
 The email server can only send a receive emails internally and not communicate with external email servers. It is mostly useful to connect it to other components within CP4BA, e.g. for notification emails. With the combination of server and web-based client it is self-contained.
 
 
 ## Prerequisites
 
-1. **Cloud Pak for Business Automation (CP4BA) 22.0.2 or 23.0.1 environment**
+1. **Cloud Pak for Business Automation (CP4BA) 22.0.2 or 23.2.2 environment**
 
    **a) IBM Business Partners and IBMers**
 
-   Reserve a [Jam-in-a-Box for Business Automation](https://techzone.ibm.com/collection/jam-in-a-box-for-business-automation) environment from IBM TechZone. For that select the **Cloud Pak for Business Automation 22.0.2 IF005 - VMWare Public (OCP 4.12) (Powered by Pak Installer)** or **Cloud Pak for Business Automation 23.0.1 IF001 - VMWare Public (OCP 4.12) (Powered by Pak Installer)** tile from the [Resources](https://techzone.ibm.com/collection/jam-in-a-box-for-business-automation/resources) tab.
+   Reserve a [Jam-in-a-Box for Business Automation](https://techzone.ibm.com/collection/jam-in-a-box-for-business-automation) environment from IBM TechZone. For that select the **Cloud Pak for Business Automation 22.0.2 IF005 - VMWare Public (OCP 4.12) (Powered by Pak Installer)** or **Cloud Pak for Business Automation 23.2.2 IF001 - VMWare Public (OCP 4.12) (Powered by Pak Installer)** tile from the [Resources](https://techzone.ibm.com/collection/jam-in-a-box-for-business-automation/resources) tab.
 
    Provide and select the required information. The selection you make for 'Purpose' determines if you need to specify a 'Sales Opportunity number' and the 'reservation policy' (how long the environment is available and how often it can be extended).
 
@@ -57,7 +57,7 @@ The email server can only send a receive emails internally and not communicate w
 
    **b) Everybody else**
 
-   Create or use a CP4BA 22.0.2 or 23.0.1 Starter deployment authoring environment with whatever capabilities you require.
+   Create or use a CP4BA 22.0.2 or 23.2.2 Starter deployment authoring environment with whatever capabilities you require.
 
    
 
@@ -74,11 +74,11 @@ The email server can only send a receive emails internally and not communicate w
 
       **Linux/Mac** 	
 
-      *CP4BA 22.0.2* - Starter deployment - **[deploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/22.0.2/Deployment_Automation/deployEmailServerStarter.sh)**  or *CP4BA 23.0.1* - Starter deployment - **[deploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/deployEmailServerStarter.sh)** (*Ensure to make the sh file executable by performing `chmod +x deployClientOnboardingStarter.sh`*)
+      *CP4BA 22.0.2* - Starter deployment - **[deploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/22.0.2/Deployment_Automation/deployEmailServerStarter.sh)**  or *CP4BA 23.2.2* - Starter deployment - **[deploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/deployEmailServerStarter.sh)** (*Ensure to make the sh file executable by performing `chmod +x deployClientOnboardingStarter.sh`*)
       
       **Windows**
       
-      *CP4BA 22.0.2* - Starter deployment - **[deploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/22.0.2/Deployment_Automation/deployEmailServerStarter.bat)** or *CP4BA 23.0.1* - Starter deployment - **[deploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/deployEmailServerStarter.bat)**
+      *CP4BA 22.0.2* - Starter deployment - **[deploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/22.0.2/Deployment_Automation/deployEmailServerStarter.bat)** or *CP4BA 23.2.2* - Starter deployment - **[deploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/deployEmailServerStarter.bat)**
 
 ### Update bat/sh File
 On Windows open the file **deployEmailServerStarter.bat**/on Linux or Mac open the file **deployEmailServerStarter.sh** in the text editor of your choice. 
@@ -137,10 +137,10 @@ The deployment tool performs a lot of validation upfront and will report any iss
 **Sometimes the deployment fails because of timing or network issues. These may not occur again when triggering the deployment a second time.** Other failures have been observed where the CP4BA environment or some of its PODs had issues and needed to be restarted.
 
 For the purpose of analyzing issues the deployment tool creates four files in the directory where it is located:
-- deployEmail_22.0.2|23.0.1_Starter_output.txt - Contains the messages printed to the console
-- deployEmail_22.0.2|23.0.1_Starter_detailedOutput.txt - Everything printed to the console plus details about the deployment steps
-- deployEmail_22.0.2|23.0.1_Starter_trace.txt - Contains very detailed trace messages about everthing that is done as part of running a deployment
-- deployEmail_22.0.2|23.0.1_Starter_combined.txt - Contains a combination of the detailedOutput and trace files
+- deployEmail_22.0.2|23.2.2_Starter_output.txt - Contains the messages printed to the console
+- deployEmail_22.0.2|23.2.2_Starter_detailedOutput.txt - Everything printed to the console plus details about the deployment steps
+- deployEmail_22.0.2|23.2.2_Starter_trace.txt - Contains very detailed trace messages about everthing that is done as part of running a deployment
+- deployEmail_22.0.2|23.2.2_Starter_combined.txt - Contains a combination of the detailedOutput and trace files
 
 In case your deployment fails and you get stuck, please reach out using the contact information that is given when the deployment fails and provide the `<date>_collector.zip` file created in this instance.
 
@@ -148,7 +148,7 @@ In case your deployment fails and you get stuck, please reach out using the cont
 
 ### Updating bat/sh File for non-PakInstaller Starter Deployment Environments
 
-In case you have a starter deployment environment of CP4BA 23.0.1 that was not deployed using PakInstaller, update the two variables `ocLoginServer` and `ocLoginToken` defined at the top of the bat/sh file with your specific details:
+In case you have a starter deployment environment of CP4BA 23.2.2 that was not deployed using PakInstaller, update the two variables `ocLoginServer` and `ocLoginToken` defined at the top of the bat/sh file with your specific details:
 
 1. **Login** to the OpenShift Web Console
 
@@ -168,7 +168,7 @@ In case you have a starter deployment environment of CP4BA 23.0.1 that was not d
 
 In case you want to create one or multiple users to  have user names other than user1-user10 or cp4admin and/or you want to set your own password for the administrator and/or all users (user1-user10), follow these steps:
 
-1. Download the file [AddUsersToPlatform.json (22.0.2)](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/22.0.2/Deployment_Automation/Starter/AddUsersToPlatform.json) or [AddUsersToPlatform.json (23.0.1)](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/Starter/AddUsersToPlatform.json) and place it in the same directory where you placed the bat/sh file
+1. Download the file [AddUsersToPlatform.json (22.0.2)](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/22.0.2/Deployment_Automation/Starter/AddUsersToPlatform.json) or [AddUsersToPlatform.json (23.2.2)](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/Starter/AddUsersToPlatform.json) and place it in the same directory where you placed the bat/sh file
 2. Edit the AddUsersToPlatform.json in your favorite text editor
    1. If you want to **add a single user**, modify the existing entry for user "Henry" to match your needs (using the "members" array, you can add the new user to any of the pre-existing groups/using the "roles" array, you can determine the Cloud Pak/Zen roles the user should get when onboarded to the Cloud Pak)
    2. If you want to **add multiple users**, just duplicate the user definition and make your modifications
@@ -189,7 +189,7 @@ In case you need to go through a proxy to access github.com perform these steps:
 
 In case don't have access to github.com and want to perform the deployment in air-gap mode perform these steps: 
 
-1. Clone the git repository or alternatively download the [Starter](https://github.com/IBM/cp4ba-client-onboarding-scenario/tree/main/23.0.1/Deployment_Automation/Starter) folder, [Solution Exports](https://github.com/IBM/cp4ba-client-onboarding-scenario/tree/main/23.0.1/Solution%20Exports) folder, and the [«date»_DeploymentAutomation.jar](https://github.com/IBM/cp4ba-client-onboarding-scenario/tree/main/Deployment_Automation/Current) file
+1. Clone the git repository or alternatively download the [Starter](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter) folder, [Solution Exports](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Solution%20Exports) folder, and the [«date»_DeploymentAutomation.jar](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/Deployment_Automation/Current) file
 2. Copy both folders and the jar file into the directory previously created in you put the bat/sh file
 3. Uncomment the line `disableAccessToGitHub="-disableAccessToGitHub=true"` to disable access to github.com and only use local files
 
@@ -208,11 +208,11 @@ In case you want to clean up your environment and remove the email server and cl
 
    **Linux/Mac** 
 
-   *CP4BA 22.0.2* - Starter deployment - **[undeploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/22.0.2/Deployment_Automation/undeployEmailServerStarter.sh)** or *CP4BA 23.0.1* - Starter deployment - **[undeploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/undeployEmailServerStarter.sh)** (*Ensure to make the sh file executable by performing `chmod +x deployClientOnboardingStarter.sh`*)
+   *CP4BA 22.0.2* - Starter deployment - **[undeploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/22.0.2/Deployment_Automation/undeployEmailServerStarter.sh)** or *CP4BA 23.2.2* - Starter deployment - **[undeploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/undeployEmailServerStarter.sh)** (*Ensure to make the sh file executable by performing `chmod +x deployClientOnboardingStarter.sh`*)
 
    **Windows**
 
-   *CP4BA 22.0.2* - Starter deployment - **[undeploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/22.0.2/Deployment_Automation/undeployEmailServerStarter.bat)** or CP4BA 23.0.1* - Starter deployment - **[undeploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.1/Deployment_Automation/undeployEmailServerStarter.bat)**
+   *CP4BA 22.0.2* - Starter deployment - **[undeploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/22.0.2/Deployment_Automation/undeployEmailServerStarter.bat)** or CP4BA 23.2.2* - Starter deployment - **[undeploy](https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/undeployEmailServerStarter.bat)**
 
 2. Update the variable `pakInstallerPortalURL` defined at the top of the file with the link from your TechZone reservation details (**PakInstaller Portal URL** at the bottom of the page). Alternatively use the approach described above in the 'Updating bat/sh File for non-Pak Installer Starter Deployment Environments' section.
 

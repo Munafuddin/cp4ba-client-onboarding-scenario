@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Use these instruction to deploy the out-of-box end-to-end [Client Onboarding solution](https://github.com/IBM/cp4ba-client-onboarding-scenario) to a self-provisioned Jam-in-a-box environment. For more information about Jam-in-a-box refer to the [Jam-in-a-box overview](https://github.com/IBM/cp4ba-jam-in-a-box) page.
+Use these instruction to deploy the out-of-box end-to-end [Client Onboarding solution](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario) to a self-provisioned Jam-in-a-box environment. For more information about Jam-in-a-box refer to the [Jam-in-a-box overview](https://github.com/IBM/cp4ba-jam-in-a-box) page.
 
 
 ## Prerequisites

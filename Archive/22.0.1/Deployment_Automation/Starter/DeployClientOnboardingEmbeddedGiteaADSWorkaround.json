@@ -26,7 +26,7 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Automation%20Decision%20Services/CODecisions.zip"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Automation%20Decision%20Services/CODecisions.zip"
 											}
 										]
 									}
@@ -186,7 +186,7 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Workflow/Client_Onboarding.twx"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Workflow/Client_Onboarding.twx"
 											}
 										]
 									}
@@ -341,22 +341,22 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Banking%20Information%20-%20Automation%20Elite%20Inc.pdf"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Banking%20Information%20-%20Automation%20Elite%20Inc.pdf"
 											},
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Certificate%20of%20Incorporation%20-%20Automation%20Elite%20Inc.pdf"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Certificate%20of%20Incorporation%20-%20Automation%20Elite%20Inc.pdf"
 											},
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Utility%20Bill%20-%20Automation%20Elite%20Inc.pdf"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Utility%20Bill%20-%20Automation%20Elite%20Inc.pdf"
 											},
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/June%20Marie%20-%20Driver's%20License.png"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/June%20Marie%20-%20Driver's%20License.png"
 											},
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Legacy%20Consulting%20-%20Banking%20Information.pdf"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Legacy%20Consulting%20-%20Banking%20Information.pdf"
 											},
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Legacy%20Consulting%20-%20Certificate%20of%20Incorporation.pdf"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Legacy%20Consulting%20-%20Certificate%20of%20Incorporation.pdf"
 											}
 										]
 									}
@@ -565,20 +565,20 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Navigator/Workplace-$cp4baVersionWithFixpack$.zip",
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Navigator/Workplace-$cp4baVersionWithFixpack$.zip",
 												"useCurrentOrEarlierFileVersion": true
 											},
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Navigator/ClientOnboardingRequest.zip"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Navigator/ClientOnboardingRequest.zip"
 											},
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Navigator/ClientOnboardingDocumentUpload.zip"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Navigator/ClientOnboardingDocumentUpload.zip"
 											},
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Navigator/ClientOnboardingRequestDesktop.properties"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Navigator/ClientOnboardingRequestDesktop.properties"
 											},
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Navigator/CODocumentUploadDesktop.properties"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Navigator/CODocumentUploadDesktop.properties"
 											}
 										]
 									}
@@ -727,19 +727,19 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Insights/case-data.json"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Insights/case-data.json"
 											},
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Insights/process-data.json"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Insights/process-data.json"
 											},
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Insights/ads-data.json"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Insights/ads-data.json"
 											},
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Insights/Client%20Onboarding%20Completed.json"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Insights/Client%20Onboarding%20Completed.json"
 											},
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Insights/finalDashboardLayout.json"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Insights/finalDashboardLayout.json"
 											}
 										]
 									}
@@ -1042,7 +1042,7 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Navigator/ICNDesktop.properties"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Navigator/ICNDesktop.properties"
 											}
 										]
 									}
@@ -1074,10 +1074,10 @@
 										"replaceExistingFiles": true,
 										"files": [
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Template.twx"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Template.twx"
 											},
 											{
-												"url": "https://github.com/IBM/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Document_Upload.twx"
+												"url": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/raw/main/$cp4baVersion$/Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Document_Upload.twx"
 											}
 										]
 									}

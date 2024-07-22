@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Use these instruction to deploy the out-of-the-box end-to-end [Client Onboarding solution](https://github.com/IBM/cp4ba-client-onboarding-scenario) and its accompanying [labs](https://github.com/IBM/cp4ba-labs/tree/main/23.0.2/README.md) to a self-provisioned environment (based on **Cloud Pak for Business Automation (CP4BA) 23.0.2**).
+Use these instruction to deploy the out-of-the-box end-to-end [Client Onboarding solution](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario) and its accompanying [labs](https://github.com/IBM/cp4ba-labs/tree/main/23.0.2/README.md) to a self-provisioned environment (based on **Cloud Pak for Business Automation (CP4BA) 23.0.2**).
 
 This deployment approach requires a separate machine with Java on it to run the deployment and the manual download and modification of a file to kick off the deployment. It offers the largest flexibility for customized deployments.
 

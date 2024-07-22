@@ -9,7 +9,7 @@
 > You need to have deployed at least the following capabilities in your CP4BA environment: Business Applications, Automation Decision Services, Workflow, Business Automation Insights.
 
 
-Use these instruction to deploy the end-to-end [Client Onboarding solution](https://github.com/IBM/cp4ba-client-onboarding-scenario) and its accompanying [labs](https://github.com/IBM/cp4ba-labs/tree/main/23.0.2/README.md) to a self-provisioned **Cloud Pak for Business Automation (CP4BA) 23.0.2** environment deployed via Cloud Pak Deployer using an OpenShift Job.
+Use these instruction to deploy the end-to-end [Client Onboarding solution](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario) and its accompanying [labs](https://github.com/IBM/cp4ba-labs/tree/main/23.0.2/README.md) to a self-provisioned **Cloud Pak for Business Automation (CP4BA) 23.0.2** environment deployed via Cloud Pak Deployer using an OpenShift Job.
 
 This deployment approach does not require a separate machine with Java on it to run the deployment or the manual download of any resources. A different deployment approach using a separate machine, that offers more customization options, is described [here](CloudPakDeployerSeparateMachine.md).
 

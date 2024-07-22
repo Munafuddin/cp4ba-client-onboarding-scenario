@@ -118,7 +118,7 @@ In case you need to go through a proxy to access github.com perform these steps:
 
 In case don't have access to github.com and want to perform the deployment in air-gap mode perform these steps: 
 
-1. Clone the git repository or alternatively download the [Starter](https://github.com/IBM/cp4ba-client-onboarding-scenario/tree/main/23.0.2/Deployment_Automation/Starter) folder, [Solution Exports](https://github.com/IBM/cp4ba-client-onboarding-scenario/tree/main/23.0.2/Solution%20Exports) folder, and the [«date»_DeploymentAutomation.jar](https://github.com/IBM/cp4ba-client-onboarding-scenario/tree/main/Deployment_Automation/Current) file
+1. Clone the git repository or alternatively download the [Starter](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.0.2/Deployment_Automation/Starter) folder, [Solution Exports](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.0.2/Solution%20Exports) folder, and the [«date»_DeploymentAutomation.jar](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/Deployment_Automation/Current) file
 2. Copy both folders and the jar file into the directory previously created in you put the bat/sh file
 3. Uncomment the line `disableAccessToGitHub="-disableAccessToGitHub=true"` to disable access to github.com and only use local files
 

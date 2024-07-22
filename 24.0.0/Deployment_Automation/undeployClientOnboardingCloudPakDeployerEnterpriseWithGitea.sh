@@ -103,7 +103,7 @@ FILENAME=$0
 # Version of this script file passed to execution environment
 SCRIPTVERSION=1.0.1
 # Download URL for this script
-SCRIPTDOWNLOADPATHhttps://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/${CP4BAVERSION%}/Deployment_Automation/${SCRIPTNAME%}
+SCRIPTDOWNLOADPATH=https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/${CP4BAVERSION%}/Deployment_Automation/${SCRIPTNAME%}
 
 # ----------------------------------------------------------------------------------------------------------
 # Retrieve the deployment automation jar file from GitHub if not already available or use local one when 
