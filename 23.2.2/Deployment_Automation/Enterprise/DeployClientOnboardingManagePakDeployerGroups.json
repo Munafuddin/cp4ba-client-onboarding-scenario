@@ -4,7 +4,7 @@
 	"requiredToolVersion": ">=1.1.40 <1.2.0",
 	"requiredCP4BAVersion": ">=23.2.0 <24.0.0",
 	"requiredCP4BAPattern": "Enterprise",
-	"comment": "To be used with CP4BA 23.0.2 Enterprise deployment deployed by Pak Deployer to ensure required groups exist",
+	"comment": "To be used with CP4BA 23.2.2 Enterprise deployment deployed by Pak Deployer to ensure required groups exist",
 	"actions": [
 		{
 			"CONTAINER": {

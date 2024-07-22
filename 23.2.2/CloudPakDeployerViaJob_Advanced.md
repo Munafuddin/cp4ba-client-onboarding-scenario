@@ -1,10 +1,10 @@
-# Advanced configuration scenarios when deploying the Client Onboarding scenario into an Enterprise Deployment created by Cloud Pak Deployer using an OCP Job (for CP4BA 23.0.2 IF002 and above) 
+# Advanced configuration scenarios when deploying the Client Onboarding scenario into an Enterprise Deployment created by Cloud Pak Deployer using an OCP Job (for CP4BA 23.2.2 IF002 and above) 
 
 ## Introduction
 
 > [!IMPORTANT]
 >
-> These instructions only apply in case you want to perform advanced configuration of an [OCP Job-based deployment](CloudPakDeployerViaJob.md) of the Client Onboarding scenario to a CP4BA 23.0.2 Enterprise deployment deployed by [**Cloud Pak Deployer**](CloudPakDeployerViaJob.md).
+> These instructions only apply in case you want to perform advanced configuration of an [OCP Job-based deployment](CloudPakDeployerViaJob.md) of the Client Onboarding scenario to a CP4BA 23.2.2 Enterprise deployment deployed by [**Cloud Pak Deployer**](CloudPakDeployerViaJob.md).
 
 
 

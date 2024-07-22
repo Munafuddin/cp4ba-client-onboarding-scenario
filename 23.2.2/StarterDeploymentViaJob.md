@@ -1,8 +1,8 @@
-# Deploying the Client Onboarding scenario into a Starter deployment environment - Using an OCP Job (for CP4BA 23.0.2 IF002 and above) 
+# Deploying the Client Onboarding scenario into a Starter deployment environment - Using an OCP Job (for CP4BA 23.2.2 IF002 and above) 
 
 ## Introduction
 
-Use these instruction to deploy the end-to-end [Client Onboarding solution](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario) and its accompanying [labs](https://github.com/IBM/cp4ba-labs/tree/main/23.0.2/README.md) to a self-provisioned **Cloud Pak for Business Automation (CP4BA) 23.0.2** environment using an OpenShift Job.
+Use these instruction to deploy the end-to-end [Client Onboarding solution](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario) and its accompanying [labs](https://github.com/IBM/cp4ba-labs/tree/main/23.2.2/README.md) to a self-provisioned **Cloud Pak for Business Automation (CP4BA) 23.2.2** environment using an OpenShift Job.
 
 This deployment approach does not require a separate machine with Java on it to run the deployment or the manual download of any resources. A different deployment approach using a separate machine, that offers more customization options, is described [here](StarterDeploymentSeparateMachine.md).
 
@@ -10,15 +10,15 @@ This deployment approach does not require a separate machine with Java on it to 
 
 ## Prerequisites
 
-**Cloud Pak for Business Automation (CP4BA) 23.0.2 IF002 or newer Starter deployment environment**
+**Cloud Pak for Business Automation (CP4BA) 23.2.2 IF002 or newer Starter deployment environment**
 
 Either
 
-- request a CP4BA 23.0.2 Starter environment from TechZone following these [instructions](RequestingTechZoneStarterEnv.md) 
+- request a CP4BA 23.2.2 Starter environment from TechZone following these [instructions](RequestingTechZoneStarterEnv.md) 
 
   or
 
-- bring your own CP4BA 23.0.2 IF002 or newer Starter deployment authoring environment with at least the following capabilities: Business Applications, Automation Decision Services, Workflow, Business Automation Insights, Process Federation Server.
+- bring your own CP4BA 23.2.2 IF002 or newer Starter deployment authoring environment with at least the following capabilities: Business Applications, Automation Decision Services, Workflow, Business Automation Insights, Process Federation Server.
 
 Once you have a suitable environment proceed to the chapter [Import Instructions](#import-instructions)
 
@@ -267,7 +267,7 @@ Once you have a suitable environment proceed to the chapter [Import Instructions
 
 > [!NOTE]
 >
-> **If everything worked, you should now have a CP4BA 23.0.2 deployment with the Client Onboarding scenario deployed and are done!**
+> **If everything worked, you should now have a CP4BA 23.2.2 deployment with the Client Onboarding scenario deployed and are done!**
 
 
 

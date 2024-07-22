@@ -1,10 +1,10 @@
-# Advanced configuration scenarios when deploying the Client Onboarding scenario into an Enterprise Deployment created by Cloud Pak Deployer - Using a separate machine (for CP4BA 23.0.2 IF002 and above)  
+# Advanced configuration scenarios when deploying the Client Onboarding scenario into an Enterprise Deployment created by Cloud Pak Deployer - Using a separate machine (for CP4BA 23.2.2 IF002 and above)  
 
 ## Introduction
 
 > [!IMPORTANT]
 >
-> These instructions only apply in case you want to perform advanced configuration of [deployment](CloudPakDeployerSeparateMachine.md) of the Client Onboarding scenario to a CP4BA 23.0.2 Enterprise deployment deployed by [**Cloud Pak Deployer**](CloudPakDeployerSeparateMachine.md) using a separate machine.
+> These instructions only apply in case you want to perform advanced configuration of [deployment](CloudPakDeployerSeparateMachine.md) of the Client Onboarding scenario to a CP4BA 23.2.2 Enterprise deployment deployed by [**Cloud Pak Deployer**](CloudPakDeployerSeparateMachine.md) using a separate machine.
 
 
 
@@ -112,7 +112,7 @@ In case you need to go through a proxy to access github.com perform these steps:
 
 In case don't have access to github.com and want to perform the deployment in air-gap mode perform these steps: 
 
-1. Clone the git repository or alternatively download the [Enterprise](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.0.2/Deployment_Automation/Enterprise) folder, [Solution Exports](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.0.2/Solution%20Exports) folder, and the [«date»_DeploymentAutomation.jar](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/Deployment_Automation/Current) file
+1. Clone the git repository or alternatively download the [Enterprise](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Enterprise) folder, [Solution Exports](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Solution%20Exports) folder, and the [«date»_DeploymentAutomation.jar](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/Deployment_Automation/Current) file
 2. Copy both folders and the jar file into the directory previously created in you put the bat/sh file
 3. Uncomment the line `disableAccessToGitHub="-disableAccessToGitHub=true"` to disable access to github.com and only use local files
 
@@ -133,9 +133,9 @@ In case you want to clean up your environment and remove the Client Onboarding a
 
 1. **Save the undeployment file** that corresponds to the operating system of your deployment machine into the directory created in step 1 (in the context menu of your browser select **Save as.../Save page as...** or similar)
 
-   **Linux/Mac** *CP4BA 23.0.2* - Enterprise deployment via Cloud Pak Deployer - **[undeploy](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/undeployClientOnboardingCloudPakDeployerEnterpriseWithGitea.sh)** (*Ensure to make the sh file executable by performing `chmod +x undeployClientOnboardingCloudPakDeployerEnterpriseWithGitea.sh`*)
+   **Linux/Mac** *CP4BA 23.2.2* - Enterprise deployment via Cloud Pak Deployer - **[undeploy](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/undeployClientOnboardingCloudPakDeployerEnterpriseWithGitea.sh)** (*Ensure to make the sh file executable by performing `chmod +x undeployClientOnboardingCloudPakDeployerEnterpriseWithGitea.sh`*)
 
-   **Windows** - *CP4BA 23.0.2* - Enterprise deployment via Cloud Pak Deployer - **[undeploy](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/undeployClientOnboardingCloudPakDeployerEnterpriseWithGitea.bat)**
+   **Windows** - *CP4BA 23.2.2* - Enterprise deployment via Cloud Pak Deployer - **[undeploy](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/undeployClientOnboardingCloudPakDeployerEnterpriseWithGitea.bat)**
 
 2. Update the two variables `ocLoginServer` and `ocLoginToken` defined at the top of the bat/sh file with your specific details.
 

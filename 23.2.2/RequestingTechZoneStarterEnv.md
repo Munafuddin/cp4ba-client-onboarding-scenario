@@ -1,8 +1,8 @@
-# Requesting a CP4BA 23.0.2 Starter deployment from IBM TechZone
+# Requesting a CP4BA 23.2.2 Starter deployment from IBM TechZone
 
 ## Introduction
 
-This document describes the steps required to request a CP4BA 23.0.2 Starter deployment environment, that is suitable to deploy the Client Onboarding scenario to.
+This document describes the steps required to request a CP4BA 23.2.2 Starter deployment environment, that is suitable to deploy the Client Onboarding scenario to.
 
 ## Reserving an IBM TechZone environment
 

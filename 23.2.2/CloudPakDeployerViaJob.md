@@ -1,15 +1,15 @@
-# Deploying the Client Onboarding scenario into an Enterprise Deployment created by Cloud Pak Deployer - Using an OCP Job (for CP4BA 23.0.2 IF002 and above) 
+# Deploying the Client Onboarding scenario into an Enterprise Deployment created by Cloud Pak Deployer - Using an OCP Job (for CP4BA 23.2.2 IF002 and above) 
 
 ## Introduction
 
 > [!IMPORTANT]
 >
-> These instructions only apply in case you have set up your CP4BA 23.0.2 Enterprise deployment using [**Cloud Pak Deployer**](https://ibm.github.io/cloud-pak-deployer/30-reference/configuration/cp4ba/).
+> These instructions only apply in case you have set up your CP4BA 23.2.2 Enterprise deployment using [**Cloud Pak Deployer**](https://ibm.github.io/cloud-pak-deployer/30-reference/configuration/cp4ba/).
 >
 > You need to have deployed at least the following capabilities in your CP4BA environment: Business Applications, Automation Decision Services, Workflow, Business Automation Insights.
 
 
-Use these instruction to deploy the end-to-end [Client Onboarding solution](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario) and its accompanying [labs](https://github.com/IBM/cp4ba-labs/tree/main/23.0.2/README.md) to a self-provisioned **Cloud Pak for Business Automation (CP4BA) 23.0.2** environment deployed via Cloud Pak Deployer using an OpenShift Job.
+Use these instruction to deploy the end-to-end [Client Onboarding solution](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario) and its accompanying [labs](https://github.com/IBM/cp4ba-labs/tree/main/23.2.2/README.md) to a self-provisioned **Cloud Pak for Business Automation (CP4BA) 23.2.2** environment deployed via Cloud Pak Deployer using an OpenShift Job.
 
 This deployment approach does not require a separate machine with Java on it to run the deployment or the manual download of any resources. A different deployment approach using a separate machine, that offers more customization options, is described [here](CloudPakDeployerSeparateMachine.md).
 
@@ -17,15 +17,15 @@ This deployment approach does not require a separate machine with Java on it to 
 
 ## Prerequisites
 
-**Cloud Pak for Business Automation (CP4BA) 23.0.2 IF002 or newer Enterprise deployment environment deployed via Cloud Pak Deployer**
+**Cloud Pak for Business Automation (CP4BA) 23.2.2 IF002 or newer Enterprise deployment environment deployed via Cloud Pak Deployer**
 
 Either
 
-- request a CP4BA 23.0.2 Enterprise environment deployed via Cloud Pak Deployer from TechZone following these [instructions](https://techzone.ibm.com/collection/apollo-business-automation/journey-cp4ba--tech-zone-deployer) 
+- request a CP4BA 23.2.2 Enterprise environment deployed via Cloud Pak Deployer from TechZone following these [instructions](https://techzone.ibm.com/collection/apollo-business-automation/journey-cp4ba--tech-zone-deployer) 
 
   or
 
-- bring your own CP4BA 23.0.2 IF002 or newer Enterprise deployment authoring environment deployed via [Cloud Pak Deployer](https://ibm.github.io/cloud-pak-deployer/30-reference/configuration/cp4ba/) with at least the following capabilities: Business Applications, Automation Decision Services, Workflow, Business Automation Insights, Process Federation Server.
+- bring your own CP4BA 23.2.2 IF002 or newer Enterprise deployment authoring environment deployed via [Cloud Pak Deployer](https://ibm.github.io/cloud-pak-deployer/30-reference/configuration/cp4ba/) with at least the following capabilities: Business Applications, Automation Decision Services, Workflow, Business Automation Insights, Process Federation Server.
 
 Once you have a suitable environment proceed to the chapter [Import Instructions](#import-instructions)
 
@@ -279,7 +279,7 @@ Once you have a suitable environment proceed to the chapter [Import Instructions
 
 > [!NOTE]
 >
-> **If everything worked, you should now have a CP4BA 23.0.2 deployment with the Client Onboarding scenario deployed and are done!**
+> **If everything worked, you should now have a CP4BA 23.2.2 deployment with the Client Onboarding scenario deployed and are done!**
 
 
 

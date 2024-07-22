@@ -10,7 +10,7 @@
 #
 ###############################################################################
 
-# This file is to be used with CP4BA 23.0.2 Starter deployment to remove the Client Onboarding scenario and associated labs
+# This file is to be used with CP4BA 23.2.2 Starter deployment to remove the Client Onboarding scenario and associated labs
 
 # Set all variables according to your environment before executing this file or use the respective command line options
 
@@ -226,7 +226,7 @@ fi
 # Source URL where the deployment automation jar can be retrieved from
 TOOLSOURCE="https://api.github.com/repos/Munafuddin/cp4ba-client-onboarding-scenario/contents/Deployment_Automation/Current"
 # CP4BA version
-CP4BAVERSION="23.0.2"
+CP4BAVERSION="23.2.2"
 # Deployment pattern of the CP4BA instance
 DEPLOYMENTPATTERN="Starter"
 # Source URL to bootstrap configuration for the deployment tool

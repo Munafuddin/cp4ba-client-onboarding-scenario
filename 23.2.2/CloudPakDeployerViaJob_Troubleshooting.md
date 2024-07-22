@@ -1,10 +1,10 @@
-# Troubleshooting deploying the Client Onboarding scenario into a Enterprise Deployment created by Cloud Pak Deployer - Using an OCP Job (for CP4BA 23.0.2 IF002 and above) 
+# Troubleshooting deploying the Client Onboarding scenario into a Enterprise Deployment created by Cloud Pak Deployer - Using an OCP Job (for CP4BA 23.2.2 IF002 and above) 
 
 ## Introduction
 
 > [!IMPORTANT]
 >
-> These instructions only apply in case you want to troubleshoot the [OCP Job-based deployment](CloudPakDeployerViaJob.md) of the Client Onboarding scenario to a CP4BA 23.0.2 Enterprise deployment deployed by [**Cloud Pak Deployer**](CloudPakDeployerViaJob.md).
+> These instructions only apply in case you want to troubleshoot the [OCP Job-based deployment](CloudPakDeployerViaJob.md) of the Client Onboarding scenario to a CP4BA 23.2.2 Enterprise deployment deployed by [**Cloud Pak Deployer**](CloudPakDeployerViaJob.md).
 >
 
 
@@ -21,10 +21,10 @@ If the deployment finally failed, you will see three different pods all in **Err
 <img src="images\ocp-deploy-job-created-failed.jpg" />
 
 For the purpose of analyzing the execution details or failures, the deployment tool creates four log files in a directory specific to the pod the deployment is run from (using the pod's name) that is located in the **/logs/application/client-onboarding** directory:
-- deployClientOnboarding_23.0.2_Enterprise_output.txt - Contains the messages printed to the console
-- deployClientOnboarding_23.0.2_Enterprise_detailedOutput.txt - Everything printed to the console plus details about the deployment steps
-- deployClientOnboarding_23.0.2_Enterprise_trace.txt - Contains very detailed trace messages about everthing that is done as part of running a deployment
-- deployClientOnboarding_23.0.2_Enterprise_combined.txt - Contains a combination of the detailedOutput and trace files
+- deployClientOnboarding_23.2.2_Enterprise_output.txt - Contains the messages printed to the console
+- deployClientOnboarding_23.2.2_Enterprise_detailedOutput.txt - Everything printed to the console plus details about the deployment steps
+- deployClientOnboarding_23.2.2_Enterprise_trace.txt - Contains very detailed trace messages about everthing that is done as part of running a deployment
+- deployClientOnboarding_23.2.2_Enterprise_combined.txt - Contains a combination of the detailedOutput and trace files
 
 In case your deployment fails and you get stuck, please reach out using the contact information that is given when the deployment fails and provide the `<date>_collector.zip` file created in this instance in the same directory as the log files.
 
@@ -40,7 +40,7 @@ To get to the logs and optionally copy them to your local machine , follow these
 1. In the left-hand navigator expand `Workloads`, click on `Pods`, and enter `bastudio-d` into the field next to `Name`. (Make sure that the project of your CP4BA deployment is selected)
 2. **Open** the `icp4adeploy-bastudio-deployment-0` **pod** that should be shown in running state
 3. Switch to the **Terminal** tab and enter `cd /logs/application/client-onboarding/client-onboarding-deploy-<id of the pod>/`to switch to the correct sub-directory (using the specific directory name that you captured before)
-4. **Enter** `ls -l` to list the files in the directory. Using `vi deployClientOnboarding_23.0.2_Enterprise_output|detailedOutput|trace|combined.txt`, you can look at content of the different log files
+4. **Enter** `ls -l` to list the files in the directory. Using `vi deployClientOnboarding_23.2.2_Enterprise_output|detailedOutput|trace|combined.txt`, you can look at content of the different log files
 
 #### Copying log/collector zip file to local machine
 
@@ -62,7 +62,7 @@ To get to the logs and optionally copy them to your local machine , follow these
    >
    > If your CP4BA instance is not deployed to the namespace `cp4ba`, you need to modify cp4ba to match your deployment namespace.
 
-6. Type `oc cp icp4adeploy-bastudio-deployment-0:/logs/application/client-onboarding/client-onboarding-deploy-<id of the pod>/deployClientOnboarding_23.0.2_Enterprise_output|detailedOutput|trace|combined.txt ./deployClientOnboarding_23.0.2_Enterprise_output|detailedOutput|trace|combined.txt` to copy the respective file to your local machine.
+6. Type `oc cp icp4adeploy-bastudio-deployment-0:/logs/application/client-onboarding/client-onboarding-deploy-<id of the pod>/deployClientOnboarding_23.2.2_Enterprise_output|detailedOutput|trace|combined.txt ./deployClientOnboarding_23.2.2_Enterprise_output|detailedOutput|trace|combined.txt` to copy the respective file to your local machine.
 
    The command consists of 
 

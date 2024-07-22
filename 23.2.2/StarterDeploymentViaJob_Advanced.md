@@ -1,10 +1,10 @@
-# Advanced configuration scenarios when deploying the Client Onboarding scenario into a Starter deployment environment - Using an OCP Job (for CP4BA 23.0.2 IF002 and above) 
+# Advanced configuration scenarios when deploying the Client Onboarding scenario into a Starter deployment environment - Using an OCP Job (for CP4BA 23.2.2 IF002 and above) 
 
 ## Introduction
 
 > [!IMPORTANT]
 >
-> These instructions only apply in case you want to perform advanced configurations for the [OCP Job-based deployment](StarterDeploymentViaJob.md) of the Client Onboarding scenario to a CP4BA 23.0.2 Starter deployment.
+> These instructions only apply in case you want to perform advanced configurations for the [OCP Job-based deployment](StarterDeploymentViaJob.md) of the Client Onboarding scenario to a CP4BA 23.2.2 Starter deployment.
 
 
 

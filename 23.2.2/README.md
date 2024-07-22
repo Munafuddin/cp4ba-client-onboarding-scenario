@@ -1,4 +1,4 @@
-# Deploying the Client Onboarding scenario (for CP4BA 23.0.2 IF002 and above)
+# Deploying the Client Onboarding scenario (for CP4BA 23.2.2 IF002 and above)
 
 ## Introduction
 
@@ -15,7 +15,7 @@ Choose the environment type and deployment approach below, that best matches you
 > 1. (New and recommended) Using an OpenShift Job - Does not require a separate deployment machine with Java installed
 > 2. (Traditional) Using a separate deployment machine with Java installed
 >
-> When available, using the OpenShift Job approach is recommended, as there is no additional requirement other than having a CP4BA 23.0.2 (IF002 or above) cluster.
+> When available, using the OpenShift Job approach is recommended, as there is no additional requirement other than having a CP4BA 23.2.2 (IF002 or above) cluster.
 
 
 ## Target Deployment Type

@@ -1,8 +1,8 @@
-# Deploying the Client Onboarding scenario into a Starter deployment environment - Using a separate machine (for CP4BA 23.0.2 IF002 and above) 
+# Deploying the Client Onboarding scenario into a Starter deployment environment - Using a separate machine (for CP4BA 23.2.2 IF002 and above) 
 
 ## Introduction
 
-Use these instruction to deploy the out-of-the-box end-to-end [Client Onboarding solution](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario) and its accompanying [labs](https://github.com/IBM/cp4ba-labs/tree/main/23.0.2/README.md) to a self-provisioned environment (based on **Cloud Pak for Business Automation (CP4BA) 23.0.2**).
+Use these instruction to deploy the out-of-the-box end-to-end [Client Onboarding solution](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario) and its accompanying [labs](https://github.com/IBM/cp4ba-labs/tree/main/23.2.2/README.md) to a self-provisioned environment (based on **Cloud Pak for Business Automation (CP4BA) 23.2.2**).
 
 This deployment approach requires a separate machine with Java on it to run the deployment and the manual download and modification of a file to kick off the deployment. It offers the largest flexibility for customized deployments.
 
@@ -12,15 +12,15 @@ A simpler deployment approach without the need for a separate machine is describ
 
 ## Prerequisites
 
-### 1. Cloud Pak for Business Automation (CP4BA) 23.0.2 IF002 or newer Starter deployment environment
+### 1. Cloud Pak for Business Automation (CP4BA) 23.2.2 IF002 or newer Starter deployment environment
 
 Either
 
-- request a CP4BA 23.0.2 Starter environment from TechZone following these [instructions](RequestingTechZoneStarterEnv.md) 
+- request a CP4BA 23.2.2 Starter environment from TechZone following these [instructions](RequestingTechZoneStarterEnv.md) 
 
   or
 
-- bring your own CP4BA 23.0.2 IF002 or newer Starter deployment authoring environment with at least the following capabilities: Business Applications, Automation Decision Services, Workflow, Business Automation Insights, Process Federation Server.
+- bring your own CP4BA 23.2.2 IF002 or newer Starter deployment authoring environment with at least the following capabilities: Business Applications, Automation Decision Services, Workflow, Business Automation Insights, Process Federation Server.
 
 ### 2. Machine to start the deployment from
 
@@ -36,9 +36,9 @@ A Windows, Linux, or Mac system with **Java 8** or later installed is required t
 
    2. **Save the deployment file** that corresponds to the operating system of your deployment machine into the directory created in step 1 (in the context menu of your browser select **Save as.../Save page as...** or similar)
 
-      **Linux/Mac** 	*CP4BA 23.0.2* - Starter deployment - **[deploy](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.sh)** (*Ensure to make the sh file executable by performing `chmod +x deployClientOnboardingStarter.sh`*)
+      **Linux/Mac** 	*CP4BA 23.2.2* - Starter deployment - **[deploy](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.sh)** (*Ensure to make the sh file executable by performing `chmod +x deployClientOnboardingStarter.sh`*)
 
-      **Windows** - *CP4BA 23.0.2* - Starter deployment - **[deploy](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.bat)**
+      **Windows** - *CP4BA 23.2.2* - Starter deployment - **[deploy](https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/23.2.2/Deployment_Automation/deployClientOnboardingStarter.bat)**
 
 ### Update bat/sh File
 On Windows open the file **deployClientOnboardingStarter.bat**/on Linux or Mac open the file **deployClientOnboardingStarter.sh** in the text editor of your choice. 
@@ -128,7 +128,7 @@ This information is also stored in a ConfigMap named `client-onboarding-informat
 
 > [!NOTE]
 >
-> **If everything worked, you should now have a CP4BA 23.0.2 deployment with the Client Onboarding scenario deployed and are done!**
+> **If everything worked, you should now have a CP4BA 23.2.2 deployment with the Client Onboarding scenario deployed and are done!**
 
 
 
@@ -139,10 +139,10 @@ The deployment tool performs a lot of validation upfront and will report any iss
 **Sometimes the deployment fails because of timing or network issues. These may not occur again when triggering the deployment a second time.** Other failures have been observed where the CP4BA environment or some of its PODs had issues and needed to be restarted.
 
 For the purpose of analyzing issues the deployment tool creates four files in the directory where it is located:
-- deployClientOnboarding_23.0.2_Starter_output.txt - Contains the messages printed to the console
-- deployClientOnboarding_23.0.2_Starter_detailedOutput.txt - Everything printed to the console plus details about the deployment steps
-- deployClientOnboarding_23.0.2_Starter_trace.txt - Contains very detailed trace messages about everthing that is done as part of running a deployment
-- deployClientOnboarding_23.0.2_Starter_combined.txt - Contains a combination of the detailedOutput and trace files
+- deployClientOnboarding_23.2.2_Starter_output.txt - Contains the messages printed to the console
+- deployClientOnboarding_23.2.2_Starter_detailedOutput.txt - Everything printed to the console plus details about the deployment steps
+- deployClientOnboarding_23.2.2_Starter_trace.txt - Contains very detailed trace messages about everthing that is done as part of running a deployment
+- deployClientOnboarding_23.2.2_Starter_combined.txt - Contains a combination of the detailedOutput and trace files
 
 In case your deployment fails and you get stuck, please reach out using the contact information that is given when the deployment fails and provide the `<date>_collector.zip` file created in this instance.
 

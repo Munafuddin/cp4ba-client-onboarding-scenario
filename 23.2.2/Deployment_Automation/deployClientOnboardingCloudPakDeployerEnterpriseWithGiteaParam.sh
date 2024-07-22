@@ -10,7 +10,7 @@
 #
 ###############################################################################
 
-# This file is to be used with CP4BA 23.0.2 Enterprise deployment that was deployed using 
+# This file is to be used with CP4BA 23.2.2 Enterprise deployment that was deployed using 
 # either Apollo-One-Shot or Cloud Pak Deployer approach with a co-deployed gitea to deploy
 # the Client Onboarding scenario and associated labs
 
@@ -312,7 +312,7 @@ fi
 # Source URL where the deployment automation jar can be retrieved from
 TOOLSOURCE="https://api.github.com/repos/Munafuddin/cp4ba-client-onboarding-scenario/contents/Deployment_Automation/Current"
 # CP4BA version
-CP4BAVERSION="23.0.2"
+CP4BAVERSION="23.2.2"
 # Deployment pattern of the CP4BA instance
 DEPLOYMENTPATTERN="Enterprise"
 # Source URL to bootstrap configuration for the deployment tool
