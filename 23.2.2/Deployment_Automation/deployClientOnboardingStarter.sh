@@ -10,7 +10,7 @@
 #
 ###############################################################################
 
-# This file is to be used with CP4BA 23.0.1 starter deployment to deploy the Client Onboarding scenario and associated labs using an internal email server/client
+# This file is to be used with CP4BA 23.0.2 starter deployment to deploy the Client Onboarding scenario and associated labs using an internal email server/client
 
 # Set all variables according to your environment before executing this file
 
@@ -21,12 +21,13 @@
 # Either 'pakInstallerPortalURL' or 'ocLoginServer' and 'ocLoginToken' need to be specified but not both depending on how environment is installed
 
 # Value of the 'server' parameter as shown on the 'Copy login command' page in the OCP web console
-ocLoginServer=https://api.669dc89a417006001efe85f0.ocp.techzone.ibm.com:6443
+ocLoginServer=REQUIRED
 # Value shown under 'Your API token is' or as 'token' parameter as shown on the 'Copy login command' page in the OCP web console
-ocLoginToken=sha256~_3RBbT5PP7G7TvA2F5ecq2FGQZ7_nvtF9H6lRxyCMiI
+ocLoginToken=REQUIRED
 
 # URL of the PAK INSTALLER PORTAL directly from the 'Your environment is ready' email 'PakInstaller Portal URL:' when deployed from TechZone via Pak Installer
-#pakInstallerPortalURL=REQUIRED
+# pakInstallerPortalURL=REQUIRED
+
 
 # Set to false in case environment the Client Onboarding lab artifacts should not be deployed and only the Client Onboarding scenario is required (if set to false, will reduce deployment time)
 configureLabs=true
@@ -62,7 +63,7 @@ createUsers=false
 #jvmSettings="-Xms4096M"
 
 # Uncomment in case GitHub is not accessible and all resources are already available locally
-disableAccessToGitHub="-disableAccessToGitHub=true"
+#disableAccessToGitHub="-disableAccessToGitHub=true"
 
 # Proxy settings in case a proxy server needs to be used to access the GitHub resources
 # Uncomment at least the proxScenario, proxyHost, and proxyPort lines and set values accordingly in case a proxy server needs to be used to access GitHub
@@ -113,11 +114,11 @@ fi
 # Source URL where the deployment automation jar can be retrieved from
 TOOLSOURCE="https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/contents/Deployment_Automation/Current"
 # CP4BA version
-CP4BAVERSION="23.2.2"
+CP4BAVERSION="23.0.2"
 # Deployment pattern of the CP4BA instance
 DEPLOYMENTPATTERN="Starter"
 # Source URL to bootstrap configuration for the deployment tool
-BOOTSTRAPURL="-bootstrapURL=https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/contents/23.0.1/Deployment_Automation/${DEPLOYMENTPATTERN}"
+BOOTSTRAPURL="-bootstrapURL=https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/contents/${CP4BAVERSION}/Deployment_Automation/${DEPLOYMENTPATTERN}"
 # Name of the configuration file to use when running the deployment automation tool
 CONFIGNAME="config-deploy"
 # Automation script to use when running the deployment automation tool
@@ -128,7 +129,7 @@ SCRIPTNAME=deployClientOnboardingStarter.sh
 # Name of the actual sh file passed to execution environment
 FILENAME=$0
 # Version of this script file passed to execution environment
-SCRIPTVERSION=1.1.11
+SCRIPTVERSION=1.0.1
 # Download URL for this script
 SCRIPTDOWNLOADPATH=https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/${CP4BAVERSION%}/Deployment_Automation/${SCRIPTNAME%}
 

@@ -1,9 +1,9 @@
 {
 	"comment": "Contains the steps required to deploy the Client Onboarding scenario itself",
-	"fileVersion": "1.0.1",
-	"fileLocation": "https://github.com/Munafuddin/cp4ba-client-onboarding-scenario/tree/main/23.2.2/Deployment_Automation/Starter/DeployClientOnboardingScenarioEmbeddedGitea.json",
-	"requiredToolVersion": ">=1.1.59 <1.2.0",
-	"requiredCP4BAVersion": ">=23.1.0 <23.2.2",
+	"fileVersion": "1.0.6",
+	"fileLocation": "https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/23.0.2/Deployment_Automation/Starter/DeployClientOnboardingScenarioEmbeddedGitea.json",
+	"requiredToolVersion": ">=1.1.68 <1.2.0",
+	"requiredCP4BAVersion": ">=23.2.2 <24.0.0",
 	"requiredCP4BAPattern": "Starter",
 	"actions": [
 		{
@@ -135,9 +135,9 @@
 					},
 					{
 						"ADP": {
-							"comment": "Tries to configure and deploy the sample ADP project and then extract its project Id. Action will not fail when an error occurs as downstream action can handle the absence of the projectId",
+							"comment": "Tries to create, configure, and deploy the CO ADP project and then extract its project Id. Action will not fail when an error occurs as downstream action can handle the absence of the projectId",
 							"enabled": "$$(enableDeployClientOnboarding_ADP)$$",
-							"description": "ADP - Configure and deploy default project and extract projectId",
+							"description": "ADP - Create, configure, and deploy project and extract projectId",
 							"skipRemainingSubactionOnFailure": "true",
 							"relativeBasePath": "Automation Document Processing",
 							"objectStoreName": "$$(adpObjectStore)$$",
@@ -148,6 +148,27 @@
 									"TESTCONNECTION": {
 										"enabled": "true",
 										"description": "Test ADP capability"
+									}
+								},
+								{
+									"MANAGETRUSTCERTIFICATES": {
+										"enabled": "true",
+										"description": "Add Trust Certificates for CPD route so BAW pod can communicate with ADP pod",
+										"trustCertifactes": [
+											{
+												"action": "add",
+												"trustCertificateSecretName": "cpd-route-tls-secret"
+											}
+										]
+									}
+								},
+								{
+									"CREATEADPPROJECT": {
+										"enabled": "true",
+										"description": "Create ADP Project",
+										"projectDescription": "ADP solution to extract address from Utility Bill for Client Onboarding scenario",
+										"maxBootstrapCompletionPolls": 15,
+										"delayBetweenBootstrapCompletionPolls": 10
 									}
 								},
 								{
@@ -222,7 +243,8 @@
 									"EXTRACTTWXPROJECTINFO": {
 										"enabled": "true",
 										"description": "Extract the project information from the Client Onboarding TWX file",
-										"sourceTwxFile": "Client_Onboarding.twx"
+										"sourceTwxFile": "Client_Onboarding.twx",
+										"globalContextVariableName": "clientOnboardingPAInfo"
 									}
 								},
 								{
@@ -245,6 +267,12 @@
 											},
 											{
 												"adpProjectID": "$(adpProjectId|default=)$"
+											},
+											{
+												"adpMaxRetries": "$(adpMaxRetries|default=20)$"
+											},
+											{
+												"adpLogLevel": "$(adpLogLevel|default=0)$"
 											},
 											{
 												"documentUploadPage": "$$(wf_cp_documentUploadPage)$$"
@@ -620,6 +648,15 @@
 									}
 								},
 								{
+									"DETERMINEDEPLOYEDINFO": {
+										"enabled": "true",
+										"description": "Determine acronym of deployed WF Client Onboarding solution",
+										"relativePath": "Business Automation Workflow",
+										"sourceTwxFile": "Client_Onboarding.twx",
+										"globalContextVariableName": "clientOnboardingPAInfo"
+									}
+								},
+								{
 									"PATCHAPPLICATION": {
 										"enabled": "true",
 										"description": "Patch 'Client Onboarding Request' app to work in current environment",
@@ -633,6 +670,9 @@
 											},
 											"3": {
 												"cp4badmin": "$$(cp4baAdminUsr)$$"
+											},
+											"4": {
+												"\"CO\"": "\"$(OBJECT(clientOnboardingPAInfo;projectAcronym)|default=CO)$\""
 											}
 										}
 									}
