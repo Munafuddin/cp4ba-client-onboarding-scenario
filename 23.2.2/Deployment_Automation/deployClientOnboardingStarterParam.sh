@@ -316,13 +316,13 @@ fi
 # ----------------------------------------------------------------------------------------------------------
 
 # Source URL where the deployment automation jar can be retrieved from
-TOOLSOURCE="https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/contents/Deployment_Automation/Current"
+TOOLSOURCE="https://api.github.com/repos/Munafuddin/cp4ba-client-onboarding-scenario/contents/Deployment_Automation/Current"
 # CP4BA version
 CP4BAVERSION="23.0.2"
 # Deployment pattern of the CP4BA instance
 DEPLOYMENTPATTERN="Starter"
 # Source URL to bootstrap configuration for the deployment tool
-BOOTSTRAPURL="-bootstrapURL=https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/contents/${CP4BAVERSION}/Deployment_Automation/${DEPLOYMENTPATTERN}"
+BOOTSTRAPURL="-bootstrapURL=https://api.github.com/repos/Munafuddin/cp4ba-client-onboarding-scenario/contents/${CP4BAVERSION}/Deployment_Automation/${DEPLOYMENTPATTERN}"
 # Name of the configuration file to use when running the deployment automation tool
 CONFIGNAME="config-deploy"
 # Automation script to use when running the deployment automation tool
@@ -335,7 +335,7 @@ FILENAME=$0
 # Version of this script file passed to execution environment
 SCRIPTVERSION=1.0.8
 # Download URL for this script
-SCRIPTDOWNLOADPATH=https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/${CP4BAVERSION%}/Deployment_Automation/${SCRIPTNAME%}
+SCRIPTDOWNLOADPATHhttps://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/${CP4BAVERSION%}/Deployment_Automation/${SCRIPTNAME%}
 
 # ----------------------------------------------------------------------------------------------------------
 # Retrieve the deployment automation jar file from GitHub if not already available or use local one when 

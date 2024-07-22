@@ -87,13 +87,13 @@ rem Global settings for the script (not to be modified by user)
 rem ----------------------------------------------------------------------------------------------------------
 
 rem Source URL where the deployment automation jar can be retrieved from
-SET TOOLSOURCE=https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/contents/Deployment_Automation/Current
+SET TOOLSOURCE=https://api.github.com/repos/Munafuddin/cp4ba-client-onboarding-scenario/contents/Deployment_Automation/Current
 rem CP4BA version
 SET CP4BAVERSION=23.0.2
 rem Deployment pattern of the CP4BA instance
 SET DEPLOYMENTPATTERN=Enterprise
 rem Source URL to bootstrap configuration for the deployment tool
-SET BOOTSTRAPURL=-bootstrapURL=https://api.github.com/repos/IBM/cp4ba-client-onboarding-scenario/contents/%CP4BAVERSION%/Deployment_Automation/%DEPLOYMENTPATTERN%
+SET BOOTSTRAPURL=-bootstrapURL=https://api.github.com/repos/Munafuddin/cp4ba-client-onboarding-scenario/contents/%CP4BAVERSION%/Deployment_Automation/%DEPLOYMENTPATTERN%
 rem Name of the configuration file to use when running the deployment automation tool
 SET CONFIGNAME=config-undeploy-withGitea
 rem Automation script to use when running the deployment automation tool
@@ -106,7 +106,7 @@ SET FILENAME=%~nx0
 rem Version of this script file passed to execution environment
 SET SCRIPTVERSION=1.0.0
 rem Download URL for this script
-SET SCRIPTDOWNLOADPATH=https://raw.githubusercontent.com/IBM/cp4ba-client-onboarding-scenario/main/%CP4BAVERSION%/Deployment_Automation/%SCRIPTNAME%
+SET SCRIPTDOWNLOADPATHhttps://github.com/Munafuddin/cp4ba-client-onboarding-scenario/main/%CP4BAVERSION%/Deployment_Automation/%SCRIPTNAME%
 
 rem ----------------------------------------------------------------------------------------------------------
 rem Retrieve the deployment automation jar file from GitHub if not already available or use local one when 
